@@ -18,13 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Myeong Lee
-email: myeonglee.com
+title: Community Informatics Lab
+email: mlee89@gmu.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Myeong Lee site
+  A diverse and interdisciplinary team under the guidance of Dr.Myeong Lee
 baseurl: "cil_blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: myeong
 github_username:  myeong
 
 # Build settings
