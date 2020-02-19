@@ -59,8 +59,8 @@ permalink: /members/
     <body>
       <div class="responsive">
         <div class="gallery">
-          <a target="_blank" href="/assets/mlee.jpg">
-            <img src="https://imgur.com/yfEatsQ" alt="Cinque Terre" width="600" height="400">
+          <a target="_blank" href="https://i.imgur.com/yfEatsQ.jpg">
+            <img src="https://i.imgur.com/yfEatsQ.jpg" alt="Cinque Terre" width="600" height="400">
           </a>
           <div class="desc">Add a description of the image here</div>
         </div>
@@ -69,34 +69,16 @@ permalink: /members/
       
       <div class="responsive">
         <div class="gallery">
-          <a target="_blank" href="/assets/saivikas.jpeg">
-            <img src="https://imgur.com/LbTq3mT" alt="Forest" width="600" height="400">
+          <a target="_blank" href="https://i.imgur.com/LbTq3mT.jpg">
+            <img src="https://i.imgur.com/LbTq3mT.jpg" alt="Forest" width="600" height="400">
           </a>
           <div class="desc">Add a description of the image here</div>
         </div>
       </div>
       <div class="responsive">
         <div class="gallery">
-          <a target="_blank" href="/assets/mlee.jpg">
-            <img src="https://imgur.com/yfEatsQ" alt="Cinque Terre" width="600" height="400">
-          </a>
-          <div class="desc">Add a description of the image here</div>
-        </div>
-      </div>
-      
-      
-      <div class="responsive">
-        <div class="gallery">
-          <a target="_blank" href="/assets/saivikas.jpeg">
-            <img src="https://imgur.com/LbTq3mT" alt="Forest" width="600" height="400">
-          </a>
-          <div class="desc">Add a description of the image here</div>
-        </div>
-      </div>
-      <div class="responsive">
-        <div class="gallery">
-          <a target="_blank" href="/assets/mlee.jpg">
-            <img src="https://imgur.com/yfEatsQ" alt="Cinque Terre" width="600" height="400">
+          <a target="_blank" href="https://i.imgur.com/yfEatsQ.jpg">
+            <img src="https://i.imgur.com/yfEatsQ.jpg" alt="Cinque Terre" width="600" height="400">
           </a>
           <div class="desc">Add a description of the image here</div>
         </div>
@@ -105,8 +87,26 @@ permalink: /members/
       
       <div class="responsive">
         <div class="gallery">
-          <a target="_blank" href="/assets/saivikas.jpeg">
-            <img src="https://imgur.com/LbTq3mT" alt="Forest" width="600" height="400">
+          <a target="_blank" href="https://i.imgur.com/LbTq3mT.jpg">
+            <img src="https://i.imgur.com/LbTq3mT.jpg" alt="Forest" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+      </div>
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://i.imgur.com/yfEatsQ.jpg">
+            <img src="https://i.imgur.com/yfEatsQ.jpg" alt="Cinque Terre" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+      </div>
+      
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="https://i.imgur.com/LbTq3mT.jpg">
+            <img src="https://i.imgur.com/LbTq3mT.jpg" alt="Forest" width="600" height="400">
           </a>
           <div class="desc">Add a description of the image here</div>
         </div>
