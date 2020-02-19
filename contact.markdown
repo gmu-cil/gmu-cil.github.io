@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 image:cil_banner.png
 ---
-
- <div>
+Hi
+<div>
 	{% include contact.html %}
 </div>
