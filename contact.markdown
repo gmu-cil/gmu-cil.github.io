@@ -9,3 +9,6 @@ permalink: /contact/
 	<img src="/assets/cil_banner.png">
 
   </div>
+  <div>
+	{% include contact.html %}
+</div>
