@@ -5,7 +5,8 @@ permalink: /contact/
 ---
 
  <div class="post-content">
-    <p>A super diverse lab with research areas in Information Science,Computational Social Science,Urban Computing and Human Computer Interaction</p>
-	<img src="/assets/cil_banner.png">
+   For more information regarding lab feel free to contact Dr.Myeong Lee
+	<img src="https://i.imgur.com/yfEatsQ.jpg">
+	https://myeonglee.com/
 
   </div>
