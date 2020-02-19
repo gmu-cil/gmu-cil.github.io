@@ -9,3 +9,6 @@ permalink: /members/
 	<img src="/assets/cil_banner.png">
 
   </div>
+  <div>
+	{% include members.html %}
+</div>
