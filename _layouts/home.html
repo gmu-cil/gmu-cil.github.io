@@ -4,13 +4,18 @@ layout: default
 
 <div class="home">
  
-    <h1 class="site-header">{{ site.title }}</h1>
+    <!-- <h1 class="site-header">{{ site.title }}</h1> -->
+  <a href="/" target="_self"><img id="logo" src="assets/cil_logo.png"></a>
+
 
   {{ content }}
-  <div> We're studying the dynamics of local communities and information inequality through computatioal methods and socio-technical approaches.</div>
+  <div> We're a research group studying the dynamics of local communities, technology-enabled groups, and information infrastructures through computatioal methods and socio-technical approaches.</div>
 
   <h3 class="page-heading">News</h3>
   {%- include news.html -%}
+
+  <h3 class="page-heading">Featured</h3>
+  {%- include projects.html -%}
  
 
 

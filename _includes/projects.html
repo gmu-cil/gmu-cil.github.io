@@ -1,0 +1,24 @@
+{% assign data = site.data %}
+{% if data.featured %}
+  
+  {% assign items = data.featured %}
+  <div class="container-fluid">
+    <div class="row">
+      
+  {% for item in items %}  
+      <div class="col-sm-2">
+        {% if item.image %}
+          <div class="featured-image-post">
+            <img src="{{ item.image }}">
+          </div>
+          <div class="featured-description">
+            {{ item.description }}
+          </div>
+        {% endif %}
+      </div>
+  {% endfor %}             
+                
+    </div>
+  </div>
+  
+{% endif %}

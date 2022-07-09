@@ -29,6 +29,9 @@ github_username:
 theme: minima
 plugins:
   - jekyll-feed
+sass:
+  load_paths:
+    - _sass
 defaults:
   -scope:
     path:"assets"

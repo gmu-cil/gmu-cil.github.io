@@ -60,6 +60,9 @@ img {
   vertical-align: middle;
 }
 
+#logo {
+  width: 400px;
+}
 
 
 /**
@@ -103,33 +106,6 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Links
  */
-a {
-  color: white;
-  background: $brand-color;
-  text-decoration: none;
-  padding: 2px 5px 2px 5px;
-  border-radius: 2px;
-
-  &:visited {
-    /*color: darken($brand-color, 15%);*/
-    color: white;
-    text-decoration: none;
-  }
-
-  &:hover {
-    color: $brand-color;
-    background: white;
-    border: 1px solid $brand-color;
-  }
-
-  .social-media-list &:hover {
-    text-decoration: none;
-
-    .username {
-      text-decoration: underline;
-    }
-  }
-}
 
 
 /**
@@ -316,7 +292,7 @@ table {
 
 div.media-heading{
   font-size: 20px;  
-  margin: 0 0 10px 160px;
+  margin: 0 0 10px 120px;
 }
 
 div.comment{
@@ -334,10 +310,10 @@ div.comment{
 }
 
 div.year {
-  width: 155px;
+  width: 115px;
   padding-right: 5px;
   font-size: 20px;
-  color: orange;  
+  color: $brand-color;  
   min-height: 47px;
   float: left;
 }
