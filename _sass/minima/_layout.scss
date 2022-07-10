@@ -2,8 +2,6 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
@@ -100,6 +98,13 @@
   }
 }
 
+/**
+ * Site Header
+ */
+
+#logo {
+  max-width: 400px;
+}
 
 
 /**
@@ -129,7 +134,7 @@
 
 .footer-col {
   float: left;
-  margin: 0 0 10px 0;
+  margin: 3px 0 0 0;
 
 }
 
@@ -175,7 +180,7 @@
  * Page content
  */
 .page-content {
-  padding: 0 0 $spacing-unit 0;
+  padding: 0 0 45px 0;
   flex: 1 0 auto;
 }
 

@@ -3,22 +3,18 @@ layout: default
 ---
 
 <div class="home">
- 
-    <!-- <h1 class="site-header">{{ site.title }}</h1> -->
-  <a href="/" target="_self"><img id="logo" src="assets/cil_logo.png"></a>
 
+    <div> We are a research group studying the dynamics of local communities, technology-enabled groups, and information infrastructures using computatioal methods and socio-technical approaches.</div>
 
-  {{ content }}
-  <div> We are a research group studying the dynamics of local communities, technology-enabled groups, and information infrastructures using computatioal methods and socio-technical approaches.</div>
+    <div class="image_wrapper">
+    <img id="front" src="assets/front.png">
+    </div>
 
-  <img id="front" src="assets/front.png">
+    <h3 class="page-heading">News</h3>
+    {%- include news.html -%}
 
-  <h3 class="page-heading">News</h3>
-  {%- include news.html -%}
-
-  <!-- <h3 class="page-heading">Featured</h3> -->
-  
- 
+    <h3 class="page-heading">Join</h3>
+    <div>If you are interested in joining CIL, contact the <a href="mailto:mlee89@gmu.edu" target="_blank">CIL Director</a> through email, please.</div>
 
 
 </div>

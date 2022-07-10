@@ -60,12 +60,20 @@ img {
   vertical-align: middle;
 }
 
-#logo {
-  width: 400px;
-}
-
 #front{
   margin: 32px 0 20px 0;
+}
+
+.heading .footer-col div{
+  font-size: $small-font-size;
+}
+.heading .footer-col{
+  vertical-align: middle;
+}
+div.menu{
+  text-align: right;
+  padding: 19px 0 10px 0;  
+  margin-left: 10px;
 }
 
 footer img{
@@ -195,6 +203,10 @@ pre {
   }
 }
 
+.image_wrapper{
+  padding-right: 5px;
+}
+
 
 
 /**
@@ -303,13 +315,12 @@ table {
 
 }
 
-.media-heading a,
-.media-heading a:visited{
+a,a:visited{
   color: $brand-color;
   text-decoration: none;
 }
 
-.media-heading a:hover{
+a:hover{
   color: $brand-color-emph;
   text-decoration: none;
 }
