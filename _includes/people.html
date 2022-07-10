@@ -1,0 +1,54 @@
+
+<center>Under Construction</center>
+<!-- {% assign data = site.data %}
+{% if data.participants %}
+  
+  {% assign people = data.participants | sort: 'name'%}
+  
+  {% for person in people %}  
+    {% assign index_mod_2 = forloop.index | modulo: 2 %}
+    {% if index_mod_2 == 1 %}
+      <div class="row">
+    {% endif %}
+    <div class="col-md-6">
+      <div class="row">
+        <div class="profile-photo">
+          <p>
+            {% if person.website %}
+              <a href="{{ person.website }}">
+            {% endif %}
+              {% if person.image %}
+                {% assign image_prefix = person.image | slice: 0, 4 %}
+                {% if image_prefix == "http" %}
+                  {% assign image_url = person.image %}
+                {% else %}
+                  {% assign image_url = person.image | prepend: site.baseurl %}
+                {% endif %}
+                <img class="img-responsive" src="{{ image_url }}" alt="Image of {{ person.name }}">
+              {% endif %}
+            {% if person.website %}</a>{% endif %}
+          </p>
+        </div>
+        <div class="profile-text">
+          <span class="media-heading">            
+            {{ person.name }}            
+          </span>          
+            {% if person.website %}
+              <span class="website"><a href="{{ person.website }}" target="_blank">[web]</a></span>
+            {% endif %}
+          
+            {% if person.email %}
+              <span class="email">
+              {% assign mail = "mailto:" | append: person.email %}
+              <a href="{{ mail }}">[email]</a></span>
+            {% endif %}
+          
+          {% if person.bio %}{{ person.bio | markdownify }}{% endif %}
+        </div>
+      </div>
+    </div>
+    {% if index_mod_2 == 0 or forloop.last %}
+    </div> <!-- close row -->
+    {% endif %}
+  {% endfor %}
+{% endif %} -->

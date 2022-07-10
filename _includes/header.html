@@ -2,20 +2,28 @@
 <header class="site-header" role="banner">
 
   <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
 
     <!-- This is not footer, but just using the classes  -->
+    {%- if page_paths -%}
     <div class="footer-col-wrapper heading">
         <div class="footer-col footer-col-3">
-          <a href="/" target="_self"><img id="logo" src="assets/cil_logo.png"></a>
+          <a href="/" target="_self"><img id="logo" src="/assets/cil_logo.png"></a>
         </div>
         <div class="footer-col footer-col-1"></div>
-        <div class="footer-col footer-col-2 menu">
-            <div>PEOPLE</div>
-            <div>PROJECTS</div>
-            <div>PUBLICATIONS</div>
-            <div>RESOURCES</div>
+        <div class="footer-col footer-col-2 menu">            
+
+          {%- for path in page_paths -%}
+            {%- assign my_page = site.pages | where: "path", path | first -%}
+            {%- if my_page.title -%}
+            <div>
+              <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            </div>
+            {%- endif -%}
+          {%- endfor -%}
         </div>
     </div>
-
+    {%- endif -%}
   </div>
 </header>
