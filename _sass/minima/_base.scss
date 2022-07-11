@@ -156,6 +156,29 @@ li {
   }
 }
 
+.pub{
+  margin: 20px 0 10px 0;
+}
+.pub .venue{
+  font-style: italic;
+}
+.pub .abb{
+  font-style: italic;
+  font-weight: 700;
+}
+.pub .type{
+  color: $grey-color;
+  font-size: $small-font-size;
+  padding: 0 4px 0 4px;
+  display: inline-block;
+}
+.pub .note{
+  color: $background-color;
+  font-size: $small-font-size;
+  background: $brand-color;
+  border-radius: 3px;
+  padding: 0 4px 0 4px;
+}
 
 
 /**

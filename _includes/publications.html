@@ -1,27 +1,43 @@
-<center>Under Construction</center>
 
-<!-- {% assign data = site.data %}
-{% if data.featured %}
+{% assign data = site.data %}
+{% if data.publication %}
   
-  {% assign items = data.featured %}
+  {% assign items = data.publication %}
   <div class="container-fluid">
     <div class="row">
       
   {% for item in items %}  
-      <div class="col-sm-2">
-        {% if item.image %}
-          <div class="featured-image-post">
-            <img src="{{ item.image }}">
-          </div>
-          <div class="featured-description">
-            {{ item.description }}
-          </div>
+      <div class="pub"> 
+        <span> {{ item.authors }} </span>
+        <span> ({{ item.year }}). </span>
+        <span> {{ item.title }}. </span>
+        In <span class="venue"> {{ item.venue }} </span>
+
+        {% if item.abb %}
+          <span class="abb">({{item.abb}})</span>
+        {% endif %}  
+        {% if item.suffix %}
+          <span class="suffix">, {{item.suffix}}</span>
+        {% endif %} 
+
+        {% if item.link %}
+          <span class="link">
+            <a href="{{ item.link }}" target="_blank"> {{ item.link }}</a>
+          </span>
         {% endif %}
+
+        <span class="type">{{ item.type }} </span>
+
+        {% if item.note %}
+          <span class="note"> {{ item.note }} </span>
+        {% endif %}
+
       </div>
   {% endfor %}             
                 
     </div>
   </div>
+  <br>
+  <div style="text-align: right;">More papers to be added...</div>
   
 {% endif %}
- -->
