@@ -1,0 +1,34 @@
+- image: "/assets/members/mlee.jpg"
+  name: Myeong Lee
+  title: CIL Director
+  website: https://myeonglee.com
+  email: mlee89@gmu.edu
+
+- image: "/assets/members/julia.png"
+  name: Julia H.P. Hsu
+  title: Ph.D. Student
+  website: https://juliahsu.github.io
+  email: hhsu2@gmu.edu
+
+- image: "/assets/members/hiba.png"
+  name: Hiba Siraj
+  title: Ph.D. Student
+  email: hsiraj@gmu.edu
+
+- image: "/assets/members/matt.png"
+  name: Matt Willis
+  title: Ph.D. Student
+  email: mwill35@gmu.edu
+
+- image: "/assets/members/jinyi.png"
+  name: Jinyi Kim
+  title: Ph.D. Student
+  email: jkim266@gmu.edu
+
+- name: Zhehan Zhang
+  title: Ph.D. Student
+  email: zzhang22@gmu.edu
+
+- name: Ishana Shinde
+  title: M.S. Student
+  email: mwill35@gmu.edu

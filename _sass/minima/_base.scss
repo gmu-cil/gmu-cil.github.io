@@ -68,6 +68,37 @@ img {
   margin: 32px 0 20px 0;
 }
 
+div.profile{
+  margin: 30px 12px 20px 0;
+}
+
+.people .profile-photo{
+  width: 218px; 
+  height: 218px; 
+  overflow: hidden;
+  border: 1px solid $grey-color;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+
+.alumni .program {
+  color: $grey-color;
+}
+
+div.name{
+  font-size: $base-font-size; 
+  color: $text-color;
+  text-align: center;
+}
+
+.profile-text{
+  font-size: $small-font-size;
+  text-align: center;
+}
+
 .heading .footer-col div{
   font-size: $small-font-size;
 }

@@ -1,54 +1,46 @@
 
-<center>Under Construction</center>
-<!-- {% assign data = site.data %}
-{% if data.participants %}
+{% assign data = site.data %}
+{% if data.people %}
   
-  {% assign people = data.participants | sort: 'name'%}
+  {% assign people = data.people %}
   
+  <div class="footer-col-wrapper people">
   {% for person in people %}  
-    {% assign index_mod_2 = forloop.index | modulo: 2 %}
-    {% if index_mod_2 == 1 %}
-      <div class="row">
-    {% endif %}
-    <div class="col-md-6">
-      <div class="row">
+      <div class="profile footer-col">
         <div class="profile-photo">
-          <p>
-            {% if person.website %}
-              <a href="{{ person.website }}">
+          {% if person.image %}
+            {% assign image_prefix = person.image | slice: 0, 4 %}
+            {% if image_prefix == "http" %}
+              {% assign image_url = person.image %}
+            {% else %}
+              {% assign image_url = person.image | prepend: site.baseurl %}
             {% endif %}
-              {% if person.image %}
-                {% assign image_prefix = person.image | slice: 0, 4 %}
-                {% if image_prefix == "http" %}
-                  {% assign image_url = person.image %}
-                {% else %}
-                  {% assign image_url = person.image | prepend: site.baseurl %}
-                {% endif %}
-                <img class="img-responsive" src="{{ image_url }}" alt="Image of {{ person.name }}">
-              {% endif %}
-            {% if person.website %}</a>{% endif %}
-          </p>
+            <img class="img-responsive" src="{{ image_url }}" alt="Image of {{ person.name }}">
+          {% else %}
+            <img class="img-responsive" src="/assets/cil_grey.png" alt="Image of {{ person.name }}">
+          {% endif %} 
         </div>
-        <div class="profile-text">
-          <span class="media-heading">            
+        
+          <div class="name">            
             {{ person.name }}            
-          </span>          
-            {% if person.website %}
-              <span class="website"><a href="{{ person.website }}" target="_blank">[web]</a></span>
-            {% endif %}
-          
-            {% if person.email %}
-              <span class="email">
-              {% assign mail = "mailto:" | append: person.email %}
-              <a href="{{ mail }}">[email]</a></span>
-            {% endif %}
-          
-          {% if person.bio %}{{ person.bio | markdownify }}{% endif %}
-        </div>
+          </div>       
+
+          <div class="profile-text">
+            <div class="profile-title">            
+            {{ person.title }}            
+            </div>
+          {% if person.website %}
+            <span class="link"><a href="{{ person.website }}" target="_blank">[web]</a></span>
+          {% endif %}
+        
+          {% if person.email %}
+            <span class="link">
+            {% assign mail = "mailto:" | append: person.email %}
+            <a href="{{ mail }}" target="_blank">[email]</a></span>
+          {% endif %}
+          </div>
       </div>
-    </div>
-    {% if index_mod_2 == 0 or forloop.last %}
-    </div> <!-- close row -->
-    {% endif %}
+
   {% endfor %}
-{% endif %} -->
+   </div>
+{% endif %} 
