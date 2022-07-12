@@ -42,6 +42,7 @@
   abb: AOM '22
   suffix: Aug 5-9.
   type: Full Paper
+  link: https://doi.org/10.5465/AMBPP.2022.17481abstract
 
 - authors: Stevens, T., Lee, M., Gkountouna, O. 
   year: 2022
@@ -133,7 +134,7 @@
   note: 
 
 - authors: Lee, M., Butler, B.S. 
-  year: 2020
+  year: 2019
   title: How are Information Deserts Created? A Theory of Local Information Landscapes
   venue: Journal of the Association for Information Science and Technology
   abb: JASIST
@@ -141,3 +142,135 @@
   type: Journal Article
   link: https://doi.org/10.1002/asi.24114
   note: Outstanding iSchool Student Paper Award
+
+- authors: McKenzie, G., Liu, Z., Hu, Y., Lee, M.
+  year: 2018
+  title: Identifying Urban Neighborhood Names through User-contributed Online Property Listings
+  venue: ISPRS International Journal of Geo-Information
+  abb: IJGI
+  suffix: 7(10), 388. MPDI.
+  type: Journal Article
+  link: https://doi.org/10.3390/ijgi7100388
+
+- authors: Marciano, R., Lee, M., Underwood, W., Laib, S., Diker, Z., Singh, A. 
+  year: 2018
+  title: Digital Curation of a World War II Japanese-American Incarceration Camp Collection&colon; Implications for Sociotechnical Archival Systems
+  venue: Digital Heritage
+  suffix: The 3rd International Congress & Expo. IEEE. October 26-30. San Francisco, U.S.
+  type: Short Paper
+  link: https://doi.org/10.1109/DigitalHeritage.2018.8810034
+
+- authors: Hong, L., Lee, M., Mashhadi, A., Frias-Martinez, V. 
+  year: 2018
+  title: Towards Understanding Communication Behavior Changes during Floods Using Cell Phone Data
+  venue: International Conference on Social Informatics, Lecture Note in Computer Science
+  abb: SocInfo
+  suffix: 11186, pp. 97-107. Cham&colon; Springer. September 25-28. St. Petersburg, Russia.
+  type: Short Paper
+  link: https://doi.org/10.1007/978-3-030-01159-8_9
+
+- authors: Lee, M., Chen, S., Zhang, Y., Spencer, E., Marciano, R.
+  year: 2018
+  title: Toward Identifying Values and Tensions in Designing a Historically-Sensitive Data Platform&colon; A Case-Study on Urban Renewal
+  venue: iConference 2018 Proceedings. Lecture Note in Computer Science
+  abb:
+  suffix: 10766, pp. 632-637. Cham&colon; Springer. March 25-28. Sheffield, U.K.
+  type: Short Paper
+  link: https://doi.org/10.1007/978-3-319-78105-1_72
+
+- authors: Lee, M., Zhang, Y., Chen, S., Spencer, E., Dela Cruz, J., Hong, H., Marciano, R. 
+  year: 2017
+  title: Heuristics for Assessing Computational Archival Science (CAS) Research&colon; The Case of the Human Face of Big Data Project
+  venue: The Computational Archival Science Workshop in IEEE Big Data, Proceedings
+  abb: Big Data
+  suffix: pp. 2262-2270. December 11-14. Boston, U.S.
+  type: Workshop Paper
+  link: https://doi.org/10.1109/BigData.2017.8258179
+
+- authors: Lee, M., McKenzie, G., Aghi, R.
+  year: 2017
+  title: Exploratory Cluster Analysis of Urban Mobility Patterns to Identify Neighborhood Boundaries
+  venue: Symposium on Location-Based Social Media Data and Tracking Data
+  abb: LSMTD
+  suffix: July 1-2. Washington D.C., U.S.
+  type: Extended Abstract
+  link: https://escholarship.mcgill.ca/concern/articles/6395wd396
+
+- authors: Lee, M., Dottle, R., Espino, C., Subkhan, I., Rokem, A., Mashhadi, A.
+  year: 2017
+  title: A Tool for Estimating and Visualizing Poverty Maps
+  venue: NetMob '17
+  abb: 
+  suffix: pp. 49-51. April 5-7. Milan, Italy
+  type: Extended Abstract
+  link: https://netmob.org/www17/assets/img/bookofabstract_oral_2017.pdf
+
+- authors: Wang, P., Lee, M., Meng, X., Butler, B.S.
+  year: 2016
+  title: Toward an Ecology Theory of Creativity in IT Products&colon; A Study of Mobile Device Industry
+  venue: 37th International Conference on Information Systems
+  abb: ICIS
+  suffix: pp. 1-20. December 11-14. Dublin, Ireland
+  type: Full Paper
+  link: https://aisel.aisnet.org/icis2016/GeneralIS/Presentations/5/
+  note: Best Paper Award (top 1)
+
+- authors: Travis, D., Lee, M., Rojas, M., Gunn, A., Nimkar, A., Jansen, G., Diakopoulos, N., Marciano, R. 
+  year: 2016
+  title: Unlocking the Archives of Displacement and Trauma&colon; Revealing Hidden Patterns of Exploring New Modes of Public Access through Innovative Partnerships and Infrastructure
+  venue: Archiving Conference, Society for Imaging Science and Technology
+  abb: 
+  suffix: 2016(1), pp. 135-139. April 19-22. Washington D.C., U.S. 
+  type: Full Paper
+  link: https://doi.org/10.2352/issn.2168-3204.2016.1.0.135
+  note: 
+
+- authors: Lee, M., Farzan, R., Butler, B.S.
+  year: 2016
+  title: This is Not Just a Café&colon; Toward Capturing the Dynamics of Urban Places
+  venue: The CityLab Workshop at the 10th International AAAI Conference on Web and Social Media
+  abb: ICWSM
+  suffix: pp. 20-25. May 17-20. Cologne, Germany.
+  type: Full Paper
+  link: https://ojs.aaai.org/index.php/ICWSM/article/view/14826/14676
+  note: 
+
+- authors: Kim, J., Lee, M., Oh, C.
+  year: 2015
+  title: Motherhood and Social Networking Sites&colon; How do sociocultural contexts and technological factors affect Korean mothers’ KakaoStory use?
+  venue: iConference 2015 Proceedings
+  abb: 
+  suffix: March 24-27. Newport Beach, U.S.
+  type: Full Paper
+  link: http://hdl.handle.net/2142/73668
+  note: Lee Dirk Best Paper Runner-Up (top 5)
+
+- authors: Lee, M., Santos, L., Zhao, W., Lakhole, P., & Butler, B.S.
+  year: 2015
+  title: What Makes a Place More Familiar?&colon; Implications of Geospatial Information Format and Content
+  venue: Proceedings of the ACM Conference Extended Abstracts on Human Factors in Computing Systems
+  abb: CHI
+  suffix: pp. 1079-1084. ACM. April 18-23. Seoul, Korea.
+  type: Extended Abstact
+  link: http://dx.doi.org/10.1145/2702613.2732911
+  note: 
+
+- authors: Oh, C., Butler, B.S., Lee, M.
+  year: 2014
+  title: Information Behavior of International Students Settling in an Unfamiliar Geospatial Environment
+  venue: Proceedings of the Association for Information Science and Technology
+  abb: ASIST
+  suffix: 51(1). pp. 1-11. October 31-November 5. Seattle, U.S.
+  type: Full Paper
+  link: https://doi.org/10.1002/meet.2014.14505101068
+  note: 
+
+- authors: Lee, M., Butler, B.S.
+  year: 2014
+  title: I know where that is&colon; Cultural Differences in Perception of New Places
+  venue: iConference 2014 Proceedings
+  abb: 
+  suffix: pp. 1096-1100. March 4-7. Berlin, Germany.
+  type: Extended Abstract
+  link: http://doi.org/10.9776/14390
+  note:
