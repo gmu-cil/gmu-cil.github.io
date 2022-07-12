@@ -164,7 +164,7 @@
   year: 2018
   title: Towards Understanding Communication Behavior Changes during Floods Using Cell Phone Data
   venue: International Conference on Social Informatics, Lecture Note in Computer Science
-  abb: SocInfo
+  abb: SocInfo '18
   suffix: 11186, pp. 97-107. Cham&colon; Springer. September 25-28. St. Petersburg, Russia.
   type: Short Paper
   link: https://doi.org/10.1007/978-3-030-01159-8_9
@@ -209,7 +209,7 @@
   year: 2016
   title: Toward an Ecology Theory of Creativity in IT Products&colon; A Study of Mobile Device Industry
   venue: 37th International Conference on Information Systems
-  abb: ICIS
+  abb: ICIS '16
   suffix: pp. 1-20. December 11-14. Dublin, Ireland
   type: Full Paper
   link: https://aisel.aisnet.org/icis2016/GeneralIS/Presentations/5/
@@ -229,7 +229,7 @@
   year: 2016
   title: This is Not Just a Café&colon; Toward Capturing the Dynamics of Urban Places
   venue: The CityLab Workshop at the 10th International AAAI Conference on Web and Social Media
-  abb: ICWSM
+  abb: ICWSM '16
   suffix: pp. 20-25. May 17-20. Cologne, Germany.
   type: Full Paper
   link: https://ojs.aaai.org/index.php/ICWSM/article/view/14826/14676
@@ -249,7 +249,7 @@
   year: 2015
   title: What Makes a Place More Familiar?&colon; Implications of Geospatial Information Format and Content
   venue: Proceedings of the ACM Conference Extended Abstracts on Human Factors in Computing Systems
-  abb: CHI
+  abb: CHI '15
   suffix: pp. 1079-1084. ACM. April 18-23. Seoul, Korea.
   type: Extended Abstact
   link: http://dx.doi.org/10.1145/2702613.2732911
@@ -259,7 +259,7 @@
   year: 2014
   title: Information Behavior of International Students Settling in an Unfamiliar Geospatial Environment
   venue: Proceedings of the Association for Information Science and Technology
-  abb: ASIST
+  abb: ASIST '14
   suffix: 51(1). pp. 1-11. October 31-November 5. Seattle, U.S.
   type: Full Paper
   link: https://doi.org/10.1002/meet.2014.14505101068
