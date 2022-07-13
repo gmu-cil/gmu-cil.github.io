@@ -79,9 +79,91 @@ div.profile{
   border: 1px solid $grey-color;
   border-radius: 5px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: none;
+  
+}
+
+/**
+ * Projects
+ */
+
+.project-note{
+  border-top: 1px solid $grey-color-light;
+  padding-top: 10px;
+  margin: 50px 0 20px 0;
+
+}
+.project-note div{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.project-note img{
+  display: inline-block;
+  height: 100px;
+  padding: 5px 5px 0 5px;
+}
+
+.footer-col-wrapper.projects{
+  column-count: 2;
+  column-fill: auto;
+}
+
+.project{
+  width: 90%;
+  min-width: 300px;
+  color: $text-color;
+  margin: 20px 5px 10px 5px;
+  padding: 10px 15px 10px 15px;
+  display: inline-block;
+  border: 1px solid $grey-color;
+  border-radius: 5px;
+  vertical-align: top;
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+}
+
+.project h4{
+  margin-bottom: 2px;
+}
+.project-title{
+  @include relative-font-size(1.1);
+}
+
+.project-text{
+  font-size: $base-font-size;
+  border-bottom: 1px solid $grey-color;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.littles{
+  text-align: right;
+}
+.p-status, .p-fund{
+  @include relative-font-size(0.7);
+  color: $background-color;
+  background: $grey-color;
+  border-radius: 3px;
+  padding: 0 4px 0 4px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.p-pub{
+  color: $grey-color;
+  padding-bottom: 5px;
+}
+
+.project .project-photo{
+  height: 180px; 
+  overflow: hidden;
+  border: 1px solid $grey-color;
+  display: block;
+  margin: 5px 0 15px 0;
+}
+
+.project-photo img{
+  transform: translateY(-21%);
 }
 
 .alumni .program {

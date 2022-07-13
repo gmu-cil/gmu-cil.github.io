@@ -1,0 +1,41 @@
+- title: A Visualization Tool and Assessment Framework for Civic Technology Use in the DMV Area&colon; The Case of 311 Systems During the COVID-19 Outbreak
+  status: Pending
+  fund: Funded
+  image: "/assets/dmv.png"
+  description: During a global pandemic, many jurisdictions have used civic technologies such as 311 systems to manage non-emergency issues such as the violation of mask mandates. While civic issues that residents need to communicate are similar across the regions, jurisdictions' imposed communication methods vary significantly due to their policies, legacy systems, and institutional logics. By working with our community partner, Connected DMV, this project aims to understand how local governments in the D.C. area implement communication technologies during a crisis, and how people reappropriate the systems. Ultimately, this project seeks to suggest a regional technology strategy to cope with regional issues such as pandemics.
+  website: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2043900&HistoricalAwards=false
+  funding: NSF CIVIC Innovation Challenge Stage 1 (&num;2043900)
+
+- title: Risk Work and Risk Information Seeking during a Public Health Crisis
+  status: On-Going
+  image: "/assets/risk.jpg"
+  description: This project explores the socio-material dynamics of risk work and risk information seeking during public health crises. We identify the socially-constructed dimensions of how people perceive risks, and further dive into how risk information communicated through social and technological systems shape their risk behaviors, using ethnographic approaches.
+  website: 
+  funding: 
+  pub: Pine et al., 2021; Shukla et al., 2022
+
+- title: AI for AI&colon; Toward Community-level Human-AI Collaborations in Local Meetups
+  status: On-Going
+  fund: Funded
+  image: "/assets/meetup.png"
+  description: Artificial intelligence (AI) is increasingly playing more active roles than ever on Event-based Social Network (EBSN) platforms and is expected to alter local dynamics at scale. This project aims to uncover how human-AI collaboration happens at the community level by implementing and simulating machine learning algorithms at the ecological level using local gathering data from Meetup.com.
+  website: https://4va.gmu.edu/grants/current/
+  funding: 4VA @Mason
+  pub:
+
+- title: Making Information Deserts Visible&colon; Computational Models, Disparities in Civic Technology Use, and Urban Decision Making
+  status: On-Going
+  fund: Funded
+  image: "/assets/311_block.png"
+  description: This research develops a foundational visualization tool for understanding how civic technologies are used and how information inequalities manifest in a city. By leveraging Boston's 311 data (i.e., residents' reports of non-emergency civic issues such as traffic issues), we analyze data to understand how and why public services are unevenly distributed across neighborhoods, which lead to the creation of information deserts. Then, we design a visualization system that demonstrates the relationships between socio-economic factors and the information deserts of civic issues.
+  website: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1816763
+  funding: NSF HCC Program (&num;1816763) 
+  pub: Lee &amp; Butler, 2019, Lee, et al., 2021; Lee et al., 2020; Wang, et al., 2022; Tang, et al., 2022
+
+- title: Remapping Southside Community&colon; Storytelling Urban Renewal Impact
+  status: On-Going
+  image: "/assets/remapping.png"
+  description: This project builds a map-based archival platform that presents property acquisition documents during the urban renewal in the 1960's and 70's and provides searchablility and navigability of the collection for former residents, archivists, researchers, and citizens. This platform ultimately reconstructs a virtual neighborhood where people can share their memories and tell stories. This project leverages computational methods for curating historical data, GIS technologies for dynamic visualization, and value-sensitive design for designing the system.
+  website: http://urbanrenewalimpact.org/
+  funding: Final System&colon; Urban Renewal Impact Web
+  pub: Lee et al., 2017; Lee et al., 2018; Lee et al., 2021

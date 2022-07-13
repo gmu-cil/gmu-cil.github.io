@@ -1,27 +1,66 @@
-<center>Under Construction</center>
 
-<!-- {% assign data = site.data %}
-{% if data.featured %}
+{% assign data = site.data %}
+{% if data.projects %}
   
-  {% assign items = data.featured %}
-  <div class="container-fluid">
-    <div class="row">
-      
-  {% for item in items %}  
-      <div class="col-sm-2">
-        {% if item.image %}
-          <div class="featured-image-post">
-            <img src="{{ item.image }}">
-          </div>
-          <div class="featured-description">
-            {{ item.description }}
-          </div>
-        {% endif %}
+  {% assign projects = data.projects %}
+  
+  <div class="footer-col-wrapper projects">
+  {% for project in projects %}  
+      <div class="project">
+        <h4 class="project-title">            
+            {{ project.title }}            
+        </h4> 
+
+        <div class="littles">
+          <span class="p-status"> {{ project.status }} </span>
+          <span class="p-fund"> {{ project.fund }} </span>
+        </div>
+
+        <div class="project-photo">
+          {% if project.image %}
+            <img class="img-responsive" src="{{ project.image }}">
+          {% else %}
+            <img class="img-responsive" src="/assets/cil_grey.png">
+          {% endif %} 
+        </div>
+             
+        <div>
+          <div class="project-text"> {{ project.description }} </div>
+
+          {% if project.pub %}
+            <div class="p-pub">
+              <a href="/publications">Publications</a>: <span> {{ project.pub }}</span>
+            </div>
+          {% endif %}
+
+          {% if project.funding %}
+            <span class="link"><a href="{{ project.website }}" target="_blank">{{ project.funding }}</a></span>
+          {% else %}  
+            <span class="link">{{ project.funding }}</span>
+          {% endif %}
+
+        </div>
       </div>
-  {% endfor %}             
-                
-    </div>
-  </div>
-  
-{% endif %}
- -->
+
+  {% endfor %}
+   </div>
+
+   
+   <div class="project-note">
+    <h3>Acknowledgment</h3>
+        <p>Other than the major projects presented above, there are other projects that are either short-term or under exploration. If interested, please contact the CIL members to explore more about possible projects at the intersection of civic technology, local information, and socio-technical systems.</p>
+        <p>We thank the sponsors, collaborators, and community members who have made this research program possible.</p>
+        <div>
+          <img src="/assets/nsf.png">
+          <img src="/assets/gmu.png">
+          <img src="/assets/4va.png">
+          <img src="/assets/umd.png">
+          <img src="/assets/asu.png">
+          <img src="/assets/connecteddmv.png">
+          <img src="/assets/emerson.png">
+          <img src="/assets/vt.png">
+          <img src="/assets/bari.png">
+          
+
+      </div>
+{% endif %} 
