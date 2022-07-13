@@ -79,7 +79,9 @@ div.profile{
   border: 1px solid $grey-color;
   border-radius: 5px;
   display: block;
-  
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
 }
 
 /**
@@ -103,9 +105,18 @@ div.profile{
   padding: 5px 5px 0 5px;
 }
 
-.footer-col-wrapper.projects{
-  column-count: 2;
-  column-fill: auto;
+@media all and (max-width: 700px) {
+  .footer-col-wrapper.projects{
+      column-count: 1;
+      column-fill: auto;
+    }
+}
+
+@media all and (min-width: 700px) {
+  .footer-col-wrapper.projects{
+    column-count: 2;
+    column-fill: auto;
+  }
 }
 
 .project{
