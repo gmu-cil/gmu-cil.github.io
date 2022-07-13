@@ -8,6 +8,10 @@ permalink: /people/
 	{% include people.html %}
 </div>
 
+<div class="interns">
+	{% include interns.html %}
+</div>
+
 <div class="alumni">
 	{% include alumni.html %}
 </div>

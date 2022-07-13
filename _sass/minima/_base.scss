@@ -69,12 +69,12 @@ img {
 }
 
 div.profile{
-  margin: 30px 12px 20px 0;
+  margin: 25px 15px 15px 0;
 }
 
 .people .profile-photo{
-  width: 218px; 
-  height: 218px; 
+  width: 213px; 
+  height: 213px; 
   overflow: hidden;
   border: 1px solid $grey-color;
   border-radius: 5px;
@@ -179,7 +179,7 @@ div.profile{
   transform: translateY(-21%);
 }
 
-.alumni .program {
+.program {
   color: $grey-color;
 }
 
