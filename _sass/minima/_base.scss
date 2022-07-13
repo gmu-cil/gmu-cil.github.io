@@ -464,10 +464,6 @@ table {
 
 
 /* Participants */
-.col-md-6{
-  min-height: 50px; 
-
-}
 
 a,a:visited{
   color: $brand-color;
@@ -505,6 +501,5 @@ div.year {
   padding-right: 5px;
   font-size: 20px;
   color: $grey-color;  
-  min-height: 47px;
   float: left;
 }
