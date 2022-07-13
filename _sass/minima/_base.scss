@@ -61,7 +61,7 @@ img {
 }
 
 #logo {
-  max-width: 380px;
+  max-width: 375px;
 }
 
 #front{
@@ -104,6 +104,8 @@ div.profile{
   height: 100px;
   padding: 5px 5px 0 5px;
 }
+
+
 
 @media all and (max-width: 700px) {
   .footer-col-wrapper.projects{
@@ -200,7 +202,7 @@ div.name{
 }
 div.menu{
   text-align: right;
-  padding: 18px 0 10px 0;  
+  padding: 21px 0 10px 0;  
   margin-left: 10px;
 }
 
@@ -470,6 +472,8 @@ table {
 a,a:visited{
   color: $brand-color;
   text-decoration: none;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 a:hover{
