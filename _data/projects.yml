@@ -36,6 +36,6 @@
   status: On-Going
   image: "/assets/remapping.png"
   description: This project builds a map-based archival platform that presents property acquisition documents during the urban renewal in the 1960's and 70's and provides searchablility and navigability of the collection for former residents, archivists, researchers, and citizens. This platform ultimately reconstructs a virtual neighborhood where people can share their memories and tell stories. This project leverages computational methods for curating historical data, GIS technologies for dynamic visualization, and value-sensitive design for designing the system.
-  website: http://urbanrenewalimpact.org/
-  funding: Final System&colon; Urban Renewal Impact Web
+  website: http://34.139.36.112/
+  funding: Final System&colon; Remapping Southside Community
   pub: Lee et al., 2017; Lee et al., 2018; Lee et al., 2021
