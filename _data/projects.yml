@@ -27,7 +27,7 @@
   status: On-Going
   fund: Funded
   image: "/assets/311_block.png"
-  description: This research develops a foundational visualization tool for understanding how civic technologies are used and how information inequalities manifest in a city. By leveraging Boston's 311 data (i.e., residents' reports of non-emergency civic issues such as traffic issues), we analyze data to understand how and why public services are unevenly distributed across neighborhoods, which lead to the creation of information deserts. Then, we design a visualization system that demonstrates the relationships between socio-economic factors and the information deserts of civic issues.
+  description: This research develops a foundational visualization tool for understanding how civic technologies are used and how information inequalities manifest in a city. By leveraging Boston's 311 data (i.e., residents' reports of non-emergency civic issues such as traffic issues), we explore how and why public services are unevenly distributed across neighborhoods, which leads to the creation of information deserts. Then, we design a visualization system that demonstrates the relationships between socio-economic factors and the information deserts of civic issues.
   website: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1816763
   funding: NSF HCC Program (&num;1816763) 
   pub: Lee &amp; Butler, 2019, Lee, et al., 2021; Lee et al., 2020; Wang, et al., 2022; Tang, et al., 2022
