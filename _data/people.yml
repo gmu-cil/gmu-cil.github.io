@@ -29,8 +29,11 @@
   title: Ph.D. Student
   email: zzhang22@gmu.edu
 
-- name: Ishana Shinde
+- image: "/assets/members/ishana.png"
+  name: Ishana Shinde
   title: M.S. Student
+  website: https://ishana7.github.io
+  email: ishana71298@gmail.com
 
 - name: Victoria Gonzales
-  title: Undergrad. Student
+  title: Undergrad Student
