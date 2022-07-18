@@ -1,3 +1,11 @@
+- title: Exploring How Convergence Methods Foster Shared Accountability to Reveal, Map, and Mitigate the Sources and Dynamics of Bias across Social Service Provisioning Systems
+  status: To Begin
+  fund: Funded
+  image: "/assets/dass.png"
+  description: An approach to designing social services, called "systems of care," organizes services around individuals and their specific context. The goal of this project is to (1) advance accountable software systems through developing generalizable and localizable practices for exploring how to identify systemic sources of bias, (2) improve public service provisioning outcomes, and (3) minimize disparities from biased program outcomes. The project will leverage social theories, computational methods, and ethnographic approaches to translate social science results into software practices in partnership with civic tech and non-profit organizations. The project outcome will enhance accountability in designing software systems that will be used as part of a larger socio-technical system of care. 
+  website: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2217706&HistoricalAwards=false
+  funding: NSF DASS Program (&num;2217706)
+
 - title: A Visualization Tool and Assessment Framework for Civic Technology Use in the DMV Area&colon; The Case of 311 Systems During the COVID-19 Outbreak
   status: Pending
   fund: Funded
@@ -14,15 +22,6 @@
   funding: 
   pub: Pine et al., 2021; Shukla et al., 2022
 
-- title: AI for AI&colon; Toward Community-level Human-AI Collaborations in Local Meetups
-  status: On-Going
-  fund: Funded
-  image: "/assets/meetup.png"
-  description: Artificial intelligence (AI) is increasingly playing more active roles than ever on Event-based Social Network (EBSN) platforms and is expected to alter local dynamics at scale. This pilot project aims to uncover how human-AI collaboration happens at the community level by implementing and simulating machine learning algorithms at the ecological level using local gathering data from Meetup.com.
-  website: https://4va.gmu.edu/grants/current/
-  funding: 4VA @Mason
-  pub:
-
 - title: Making Information Deserts Visible&colon; Computational Models, Disparities in Civic Technology Use, and Urban Decision Making
   status: On-Going
   fund: Funded
@@ -31,6 +30,15 @@
   website: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1816763
   funding: NSF HCC Program (&num;1816763) 
   pub: Lee &amp; Butler, 2019, Lee, et al., 2021; Lee et al., 2020; Wang, et al., 2022; Tang, et al., 2022
+
+- title: AI for AI&colon; Toward Community-level Human-AI Collaborations in Local Meetups
+  status: On-Going
+  fund: Funded
+  image: "/assets/meetup.png"
+  description: Artificial intelligence (AI) is increasingly playing more active roles than ever on Event-based Social Network (EBSN) platforms and is expected to alter local dynamics at scale. This pilot project aims to uncover how human-AI collaboration happens at the community level by implementing and simulating machine learning algorithms at the ecological level using local gathering data from Meetup.com.
+  website: https://4va.gmu.edu/grants/current/
+  funding: 4VA @Mason
+  pub:
 
 - title: Remapping Southside Community&colon; Storytelling Urban Renewal Impact
   status: On-Going
