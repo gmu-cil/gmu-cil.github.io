@@ -1,8 +1,16 @@
 
 {% assign data = site.data %}
 {% if data.publication %}
+
+<div class="pub-header">
+  <a class="page-link" href="#publication">Publications</a>
+  <a class="page-link" href="#software">Software</a>
+</div>
+
   
   {% assign items = data.publication %}
+  <h3 class="page-heading" id="publication">Refereed Publications</h3>
+
   <div class="container-fluid">
     <div class="row">
       
@@ -37,7 +45,33 @@
                 
     </div>
   </div>
-  <br>
- <!--  <div style="text-align: right;">More papers to be added...</div> -->
   
+{% endif %}
+
+<br>
+{% if data.software %}
+  
+  {% assign items = data.software %}
+  <h3 class="page-heading" id="software">Software</h3>
+    <div class="container-fluid">
+      <div class="row">
+
+        {% for item in items %}  
+        <div class="pub"> 
+          <span> {{ item.title }}</span>
+          <span> ({{ item.year }}): </span>
+          <span class="software">{{item.suffix}}</span>
+
+          {% if item.link %}
+            <span class="link">
+              <a href="{{ item.link }}" target="_blank"> {{ item.link }}</a>
+            </span>
+          {% endif %}
+
+        </div>
+        {% endfor %} 
+      </div>  
+    
+    </div>
+    
 {% endif %}

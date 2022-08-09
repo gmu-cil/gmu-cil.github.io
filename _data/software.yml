@@ -1,0 +1,15 @@
+- year: 2021
+  title: Remapping Southside Community
+  suffix: A map-based visualization platform that curates the urban renewal property acquisition collection (1965-1980) from the City of Asheville, NC.
+
+  link: https://map.urbanrenewalimpact.org
+
+- year: 2018
+  title: Civic Tech Timeline
+  suffix: A web implementation of civic tech evolution history, curated by Cyd Harrell.
+  link: https://civic-tech-timeline.github.io
+
+- year: 2016
+  title: Open Data Impact Map
+  suffix: A map-based visualization platform that shows the impact of open data on organizations in the world through the survey data collected by the Center for Open Data Enterprise.
+  link: https://opendataimpactmap.org

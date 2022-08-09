@@ -84,6 +84,10 @@ div.profile{
   float: none;
 }
 
+.profile-photo img{
+  width: 100%;
+}
+
 /**
  * Projects
  */
@@ -165,6 +169,23 @@ div.profile{
 .p-pub{
   color: $grey-color;
   padding-bottom: 5px;
+}
+
+.software{
+  color: $grey-color;
+}
+
+.pub-header{
+  text-align: center;
+  vertical-align: top;
+  border-top: 1px solid $grey-color-light;
+  border-bottom: 1px solid $grey-color-light;
+  padding: 12px 0 12px 0;
+  margin: 15px 0 25px 0;
+}
+
+.pub-header a{
+  padding: 0 10px 0 10px;
 }
 
 .project .project-photo{
