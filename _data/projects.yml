@@ -1,26 +1,10 @@
-- title: Exploring How Convergence Methods Foster Shared Accountability to Reveal, Map, and Mitigate the Sources and Dynamics of Bias across Social Service Provisioning Systems
-  status: To Begin
-  fund: Funded
-  image: "/assets/dass.png"
-  description: An approach to designing social services, called "systems of care," organizes services around individuals and their specific context. The goal of this project is to (1) advance accountable software systems through developing generalizable and localizable practices for exploring how to identify systemic sources of bias, (2) improve public service provisioning outcomes, and (3) minimize disparities from biased program outcomes. The project will leverage social theories, computational methods, and ethnographic approaches to translate social science findings into software practices based on a partnership with civic tech and non-profit organizations. The project outcome will enhance accountability in designing software systems that will be used as part of a larger socio-technical system of care. 
-  website: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2217706&HistoricalAwards=false
-  funding: NSF DASS Program (&num;2217706)
-
-- title: A Visualization Tool and Assessment Framework for Civic Technology Use in the DMV Area&colon; The Case of 311 Systems During the COVID-19 Outbreak
-  status: Pending
-  fund: Funded
-  image: "/assets/dmv.png"
-  description: During a global pandemic, many jurisdictions have used civic technologies such as 311 systems to manage non-emergency issues such as the violation of mask mandates. While civic issues that residents need to communicate are similar across the regions, jurisdictions' imposed communication methods vary significantly due to their policies, legacy systems, and institutional logics. By working with our community partner, Connected DMV, this planning project aims to understand how local governments in the D.C. area implement communication technologies during a crisis, and how people reappropriate the systems. Ultimately, this project seeks to suggest a regional technology strategy to cope with regional issues such as pandemics.
-  website: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2043900&HistoricalAwards=false
-  funding: NSF CIVIC Innovation Challenge Stage 1 (&num;2043900)
-
-- title: Risk Work and Risk Information Seeking during a Public Health Crisis
+- title: Understanding the Present and Designing the Future of Risk Prediction IT in Fire Departments
   status: On-Going
-  image: "/assets/risk.jpg"
-  description: This project explores the socio-material dynamics of risk work and risk information seeking during public health crises. We identify the socially-constructed dimensions of how people perceive risks, and further dive into how risk information communicated through social and technological systems shapes their risk behaviors, using ethnographic approaches.
-  website: 
-  funding: 
-  pub: Pine et al., 2021; Shukla et al., 2022
+  fund: Funded
+  image: "/assets/fire.jpg"
+  description: Today, much of their work focuses on community risk reduction (CRR). This paradigm will leverage new data-driven risk prediction and management (DDRPM) tools to predict and respond to community risks. Yet, designing DDRPM tools to realize this vision requires a deep understanding of current work practices and the potential future impacts of such tools on labor, work, and communities. This research will develop and design new DDRPM tools that anticipate and manage various community risks to which fire departments are increasingly required to respond. We will achieve these goals by using ethnographic approaches, human-centered design methods, and the development of a sociotechnical theory of risk work. This project will directly benefit the study sites by translating research outcomes into practical insights.
+  website: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2211360
+  funding: NSF HCC Program (&num;2211360)
 
 - title: Making Information Deserts Visible&colon; Computational Models, Disparities in Civic Technology Use, and Urban Decision Making
   status: On-Going
@@ -30,6 +14,30 @@
   website: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1816763
   funding: NSF HCC Program (&num;1816763) 
   pub: Lee &amp; Butler, 2019, Lee, et al., 2021; Lee et al., 2020; Wang, et al., 2022; Tang, et al., 2022
+
+- title: Risk Work and Risk Information Seeking during a Public Health Crisis
+  status: On-Going
+  image: "/assets/risk.jpg"
+  description: This project explores the socio-material dynamics of risk work and risk information seeking during public health crises. We identify the socially-constructed dimensions of how people perceive risks, and further dive into how risk information communicated through social and technological systems shapes their risk behaviors, using ethnographic approaches.
+  website: 
+  funding: 
+  pub: Pine et al., 2021; Shukla et al., 2022
+
+- title: A Visualization Tool and Assessment Framework for Civic Technology Use in the DMV Area&colon; The Case of 311 Systems During the COVID-19 Outbreak
+  status: Pending
+  fund: Funded
+  image: "/assets/dmv.png"
+  description: During a global pandemic, many jurisdictions have used civic technologies such as 311 systems to manage non-emergency issues such as the violation of mask mandates. While civic issues that residents need to communicate are similar across the regions, jurisdictions' imposed communication methods vary significantly due to their policies, legacy systems, and institutional logics. By working with our community partner, Connected DMV, this planning project aims to understand how local governments in the D.C. area implement communication technologies during a crisis, and how people reappropriate the systems. Ultimately, this project seeks to suggest a regional technology strategy to cope with regional issues such as pandemics.
+  website: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2043900&HistoricalAwards=false
+  funding: NSF CIVIC Innovation Challenge Stage 1 (&num;2043900)
+
+- title: Exploring How Convergence Methods Foster Shared Accountability to Reveal, Map, and Mitigate the Sources and Dynamics of Bias across Social Service Provisioning Systems
+  status: To Begin
+  fund: Funded
+  image: "/assets/dass.png"
+  description: An approach to designing social services, called "systems of care," organizes services around individuals and their specific context. The goal of this project is to (1) advance accountable software systems through developing generalizable and localizable practices for exploring how to identify systemic sources of bias, (2) improve public service provisioning outcomes, and (3) minimize disparities from biased program outcomes. The project will leverage social theories, computational methods, and ethnographic approaches to translate social science findings into software practices based on a partnership with civic tech and non-profit organizations. The project outcome will enhance accountability in designing software systems that will be used as part of a larger socio-technical system of care. 
+  website: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2217706&HistoricalAwards=false
+  funding: NSF DASS Program (&num;2217706)
 
 - title: AI for AI&colon; Toward Community-level Human-AI Collaborations in Local Meetups
   status: On-Going
