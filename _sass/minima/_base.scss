@@ -64,7 +64,7 @@ img {
   max-width: 375px;
 }
 
-#front{
+.front{
   margin: 32px 0 20px 0;
 }
 
@@ -122,6 +122,9 @@ div.profile{
   .footer-col-wrapper.projects{
     column-count: 2;
     column-fill: auto;
+  }
+  img.front {
+    max-width: 50%;
   }
 }
 
