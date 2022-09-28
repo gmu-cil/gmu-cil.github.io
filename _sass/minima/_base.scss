@@ -133,7 +133,7 @@ div.profile{
   min-width: 300px;
   color: $text-color;
   margin: 20px 5px 10px 5px;
-  padding: 10px 15px 10px 15px;
+  padding: 10px 15px 15px 15px;
   display: inline-block;
   border: 1px solid $grey-color;
   border-radius: 5px;
@@ -169,9 +169,9 @@ div.profile{
   vertical-align: top;
 }
 
-.p-pub{
+.p-pub,
+.collabo{
   color: $grey-color;
-  padding-bottom: 5px;
 }
 
 .software{

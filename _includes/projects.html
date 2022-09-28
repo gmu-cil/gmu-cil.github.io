@@ -27,16 +27,23 @@
         <div>
           <div class="project-text"> {{ project.description }} </div>
 
-          {% if project.pub %}
-            <div class="p-pub">
-              <a href="/publications">Publications</a>: <span> {{ project.pub }}</span>
-            </div>
-          {% endif %}
 
           {% if project.funding %}
             <span class="link"><a href="{{ project.website }}" target="_blank">{{ project.funding }}</a></span>
           {% else %}  
             <span class="link">{{ project.funding }}</span>
+          {% endif %}
+
+          {% if project.collabo %}
+            <div class="collabo">
+              <a href="#ack">Collaborators</a>: <span> {{ project.collabo }}</span>
+            </div>
+          {% endif %}
+
+          {% if project.pub %}
+            <div class="p-pub">
+              <a href="/publications">Publications</a>: <span> {{ project.pub }}</span>
+            </div>
           {% endif %}
 
         </div>
@@ -47,13 +54,14 @@
 
    
    <div class="project-note">
-    <h3>Acknowledgments</h3>
+    <h3 id="ack">Acknowledgments</h3>
         <p>The presented projects are based on multi-institutional collaboration. Other than the major projects presented above, there are other projects that are either short-term or under exploration. If interested, please contact the CIL members to explore more about possible projects at the intersection of civic technology, local information, and socio-technical systems.</p>
         <p>We thank the sponsors, collaborators, and community members who have made this research program possible.</p>
         <div>
           <img src="/assets/nsf.png">
           <img src="/assets/gmu.png">
           <img src="/assets/4va.png">
+          <img src="/assets/fcfrd.png">
           <img src="/assets/cci.png">
           <img src="/assets/umd.png">
           <img src="/assets/asu.png">
