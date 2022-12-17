@@ -15,7 +15,7 @@
   abb: JSSR
   suffix: Vol.4
   type: Extended Abstract
-  link: https://journals.gmu.edu/index.php/jssr/article/view/3426
+  link: https://doi.org/10.13021/jssr2022.3426
   note:
 
 - authors: Siraj, H., Whitman, S., Pine, K., Lee, M.
@@ -26,6 +26,16 @@
   suffix: June 6-7, Washington D.C.
   type: Working Paper
   link: 
+  note:
+
+- authors: Arraya, C., Gkountouna, O., Lee, M., Mahabir, R.
+  year: 2021
+  title: Towards an Understanding of the Critical Success Factors that Drive Local Community Gatherings in US Cities&colon; A Machine-Learning Study on Meetup Data
+  venue: Journal of Student-Scientists' Research
+  abb: JSSR
+  suffix: Vol.3
+  type: Extended Abstract
+  link: https://doi.org/10.13021/jssr2021.3200
   note:
 
 - authors: Lee, M., Lee, S.K., Kim, S.H., Park, N.S.
