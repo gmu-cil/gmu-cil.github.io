@@ -8,7 +8,7 @@
   collabo: Arizona State Univ., UC Irvine, Fairfax FCFRD
 
 - title: Making Information Deserts Visible&colon; Computational Models, Disparities in Civic Technology Use, and Urban Decision Making
-  status: On-Going
+  status: Ended
   fund: Funded
   image: "/assets/311_block.png"
   description: This research develops a foundational visualization tool for understanding how civic technologies are used and how information inequalities manifest in a city. By leveraging Boston's 311 data (i.e., residents' reports of non-emergency civic issues such as traffic issues), we explore how and why public services are unevenly distributed across neighborhoods, which leads to the creation of information deserts. Then, we design a visualization system that demonstrates the relationships between socio-economic factors and the information deserts of civic issues.
@@ -36,7 +36,7 @@
   funding: NSF CIVIC Innovation Challenge Stage 1 (&num;2043900)
 
 - title: Exploring How Convergence Methods Foster Shared Accountability to Reveal, Map, and Mitigate the Sources and Dynamics of Bias across Social Service Provisioning Systems
-  status: To Begin
+  status: On-Going
   fund: Funded
   image: "/assets/dass.png"
   description: An approach to designing social services, called "systems of care," organizes services around individuals and their specific context. The goal of this project is to (1) advance accountable software systems through developing generalizable and localizable practices for exploring how to identify systemic sources of bias, (2) improve public service provisioning outcomes, and (3) minimize disparities from biased program outcomes. The project will leverage social theories, computational methods, and ethnographic approaches to translate social science findings into software practices based on a partnership with civic tech and non-profit organizations. The project outcome will enhance accountability in designing software systems that will be used as part of a larger socio-technical system of care. 
