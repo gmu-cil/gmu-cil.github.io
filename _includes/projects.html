@@ -29,7 +29,11 @@
 
 
           {% if project.funding %}
+            {% if project.website %}
             <span class="link"><a href="{{ project.website }}" target="_blank">{{ project.funding }}</a></span>
+            {% else %} 
+             <span class="link">{{ project.funding }}</span>
+            {% endif %}
           {% else %}  
             <span class="link">{{ project.funding }}</span>
           {% endif %}
@@ -48,7 +52,7 @@
 
           {% if project.system %}
             <div class="p-pub">
-              <span>System: </span><a href="{{ project.systemlink }}"><span> {{ project.system }}</span></a>: 
+              <a href="{{ project.systemlink }}"><span>System: </span></a><span> {{ project.system }}</span>
             </div>
           {% endif %}
 
