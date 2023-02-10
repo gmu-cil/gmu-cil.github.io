@@ -46,6 +46,12 @@
             </div>
           {% endif %}
 
+          {% if project.system %}
+            <div class="p-pub">
+              <span>System: </span><a href="{{ project.systemlink }}"><span> {{ project.system }}</span></a>: 
+            </div>
+          {% endif %}
+
         </div>
       </div>
 
