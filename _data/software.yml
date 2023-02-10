@@ -1,7 +1,11 @@
+- year: 2022
+  title: Boston 311 Information Deserts
+  suffix: A map-based visualization platform that demonstrates how the disparities in 311 reports manifest across the City of Boston.
+  link: https://infodeserts.org
+
 - year: 2021
   title: Remapping Southside Community
   suffix: A map-based visualization platform that curates the urban renewal property acquisition collection (1965-1980) from the City of Asheville, NC.
-
   link: https://map.urbanrenewalimpact.org
 
 - year: 2018
