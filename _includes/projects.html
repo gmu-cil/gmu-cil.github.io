@@ -32,10 +32,8 @@
             {% if project.website %}
             <span class="link"><a href="{{ project.website }}" target="_blank">{{ project.funding }}</a></span>
             {% else %} 
-             <span class="link">{{ project.funding }}</span>
+             <span class="collabo">{{ project.funding }}</span>
             {% endif %}
-          {% else %}  
-            <span class="link">{{ project.funding }}</span>
           {% endif %}
 
           {% if project.collabo %}
