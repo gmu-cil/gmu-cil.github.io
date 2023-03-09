@@ -114,14 +114,14 @@ div.profile{
 @media all and (max-width: 700px) {
   .footer-col-wrapper.projects{
       column-count: 1;
-      column-fill: auto;
+      column-fill: balance;
     }
 }
 
 @media all and (min-width: 700px) {
   .footer-col-wrapper.projects{
     column-count: 2;
-    column-fill: auto;
+    column-fill: balance;
   }
   img.front {
     max-width: 50%;
