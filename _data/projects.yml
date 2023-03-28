@@ -7,6 +7,16 @@
   funding: NSF HCC Program (&num;2211360)
   collabo: Arizona State Univ., UC Irvine, Fairfax FCFRD
 
+- title: Exploring How Convergence Methods Foster Shared Accountability to Reveal, Map, and Mitigate the Sources and Dynamics of Bias across Social Service Provisioning Systems
+  status: On-Going
+  fund: Funded
+  image: "/assets/dass.png"
+  description: An approach to designing social services, called "systems of care," organizes services around individuals and their specific context. The goal of this project is to (1) advance accountable software systems through developing generalizable and localizable practices for exploring how to identify systemic sources of bias, (2) improve public service provisioning outcomes, and (3) minimize disparities from biased program outcomes. The project will leverage social theories, computational methods, and ethnographic approaches to translate social science findings into software practices based on a partnership with civic tech and non-profit organizations. The project outcome will enhance accountability in designing software systems that will be used as part of a larger socio-technical system of care. 
+  website: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2217706&HistoricalAwards=false
+  funding: NSF DASS Program (&num;2217706)
+  collabo: Arizona State Univ., Lifting Up, CCI NOVA
+  pub: Hsu et al., 2022
+
 - title: Making Information Deserts Visible&colon; Computational Models, Disparities in Civic Technology Use, and Urban Decision Making
   status: Ended
   fund: Funded
@@ -28,24 +38,15 @@
   collabo: Arizona State Univ.
   pub: Pine et al., 2021; Shukla et al., 2022
 
-- title: A Visualization Tool and Assessment Framework for Civic Technology Use in the DMV Area&colon; The Case of 311 Systems During the COVID-19 Outbreak
-  status: Pending
-  fund: Funded
-  image: "/assets/dmv.png"
-  description: During a global pandemic, many jurisdictions have used civic technologies such as 311 systems to manage non-emergency issues such as the violation of mask mandates. While civic issues that residents need to communicate are similar across the regions, jurisdictions' imposed communication methods vary significantly due to their policies, legacy systems, and institutional logics. By working with our community partner, Connected DMV, this planning project aims to understand how local governments in the D.C. area implement communication technologies during a crisis, and how people reappropriate the systems. Ultimately, this project seeks to suggest a regional technology strategy to cope with regional issues such as pandemics.
-  website: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2043900&HistoricalAwards=false
-  collabo: Univ. of Maryland College Park, Arizona State Univ., Connected DMV
-  funding: NSF CIVIC Innovation Challenge Stage 1 (&num;2043900)
-
-- title: Exploring How Convergence Methods Foster Shared Accountability to Reveal, Map, and Mitigate the Sources and Dynamics of Bias across Social Service Provisioning Systems
+- title: Mapping Information Ecology&colon; Understanding the Fragmentation of Disability Service Information
   status: On-Going
   fund: Funded
-  image: "/assets/dass.png"
-  description: An approach to designing social services, called "systems of care," organizes services around individuals and their specific context. The goal of this project is to (1) advance accountable software systems through developing generalizable and localizable practices for exploring how to identify systemic sources of bias, (2) improve public service provisioning outcomes, and (3) minimize disparities from biased program outcomes. The project will leverage social theories, computational methods, and ethnographic approaches to translate social science findings into software practices based on a partnership with civic tech and non-profit organizations. The project outcome will enhance accountability in designing software systems that will be used as part of a larger socio-technical system of care. 
-  website: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2217706&HistoricalAwards=false
-  funding: NSF DASS Program (&num;2217706)
-  collabo: Arizona State Univ., Lifting Up, CCI NOVA
-  pub: Hsu et al., 2022
+  image: "/assets/vbpd.png"
+  description: Organizations and individuals providing information to multiple systems leads to fragmented information, especially in disability services. The complex interactions between actors make it difficult for information managers to understand the flow of information. Our research will focus on Medicaid services for people with developmental disabilities in Virginia, aiming to provide a comprehensive understanding of the information ecology. We will report our findings in numerical, descriptive, and graphical forms, identifying key challenges and providing recommendations for improving information accessibility, such as enhancing data interoperability and standardizing data storage. By doing so, we hope to positively impact people with disabilities and their families who currently bear the burden of navigating multiple sources to access necessary information.
+  website: https://www.vbpd.virginia.gov/
+  funding: Virginia Board for People with Disabilities (&num;GMU-3-2023)
+  collabo: VBPD, Arizona State Univ.
+  pub: 
 
 - title: AI for AI&colon; Toward Community-level Human-AI Collaborations in Local Meetups
   status: On-Going
@@ -67,3 +68,12 @@
   pub: Lee et al., 2017; Lee et al., 2018; Lee et al., 2021
   system: Remapping Southside Community
   systemlink: https://map.urbanrenewalimpact.org
+
+- title: A Visualization Tool and Assessment Framework for Civic Technology Use in the DMV Area&colon; The Case of 311 Systems During the COVID-19 Outbreak
+  status: Ended
+  fund: Funded
+  image: "/assets/dmv.png"
+  description: During a global pandemic, many jurisdictions have used civic technologies such as 311 systems to manage non-emergency issues such as the violation of mask mandates. While civic issues that residents need to communicate are similar across the regions, jurisdictions' imposed communication methods vary significantly due to their policies, legacy systems, and institutional logics. By working with our community partner, Connected DMV, this planning project aims to understand how local governments in the D.C. area implement communication technologies during a crisis, and how people reappropriate the systems. Ultimately, this project seeks to suggest a regional technology strategy to cope with regional issues such as pandemics.
+  website: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2043900&HistoricalAwards=false
+  collabo: Univ. of Maryland College Park, Arizona State Univ., Connected DMV
+  funding: NSF CIVIC Innovation Challenge Stage 1 (&num;2043900)
