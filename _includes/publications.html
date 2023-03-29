@@ -40,6 +40,9 @@
         {% if item.note %}
           <span class="note"> {{ item.note }} </span>
         {% endif %}
+        {% if item.note2 %}
+          <span class="note note2"> {{ item.note2 }} </span>
+        {% endif %}
 
       </div>
   {% endfor %}             
@@ -83,6 +86,9 @@
 
         {% if item.note %}
           <span class="note"> {{ item.note }} </span>
+        {% endif %}
+        {% if item.note2 %}
+          <span class="note note2"> {{ item.note2 }} </span>
         {% endif %}
 
       </div>
