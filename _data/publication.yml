@@ -1,3 +1,13 @@
+- authors: Lee, M., Tang, X., Wang, P.
+  year: 2023
+  title: The NYC311 App & Community Engagement in Coproducing Municipal Services
+  venue: Americas Conference on Information Systems
+  abb: AMCIS '23
+  suffix: AIS. Aug 10-12. Panama City, Panama.
+  type: Full Paper
+  link: 
+  note:
+
 - authors: Hsu, J. H-P., Shin, H., Park, N., Lee, M.
   year: 2023
   title: Two-sided Cultural Niches&colon; Topic Overlap, Geospatial Correlation, and Local Group Activities on Event-based Social Networks
@@ -74,7 +84,7 @@
   title: Social Justice &amp; Technical Efficiency&colon; The Role of Digital Technology in Boston's 311 System
   venue: European Conference on Information Systems 
   abb: ECIS '22
-  suffix: 117. June 18-24. Timisoara, Rumania.
+  suffix: 117. AIS. June 18-24. Timisoara, Rumania.
   type: Full Paper
   link: https://aisel.aisnet.org/ecis2022_rp/117 
   note: Best Full Paper Runner-Up (top 3)
@@ -103,7 +113,7 @@
   title: The Effects of Socioeconomic Deprivation on Public Library Book Circulation&colon; A Community-level Study
   venue: Journal of the Korean Library and Information Science
   abb: 
-  suffix: 55(4). pp. 219-243.
+  suffix: 55(4). pp. 219-243. KERIS.
   type: Journal Article
   link: https://dx.doi.org/10.4275/KSLIS.2021.55.4.219 
   note:
@@ -113,7 +123,7 @@
   title: Making Sense of Risk Information amidst Uncertainty&colon; Individuals’ Perceived Risks Associated with the COVID-19 Pandemic
   venue: Proceedings of the CHI Conference on Human Factors in Computing Systems
   abb: CHI '21
-  suffix: pp.1-15. May 8-13. Virtual.
+  suffix: ACM. pp.1-15. May 8-13. Virtual.
   type: Full Paper
   link: https://doi.org/10.1145/3411764.3445051
   note: Honorable Mention Award (top 5%)
@@ -133,7 +143,7 @@
   title: Multi-Generational Stories of Urban Renewal&colon; Preliminary Interviews for Map-based Storytelling
   venue: Diversity, Divergence, Dialogue. iConference 2021. Lecture Notes in Computer Science
   abb: 
-  suffix: vol 12646. pp. 319-326. Springer, Cham.
+  suffix: vol 12646. pp. 319-326. Springer&colon; Cham.
   type: Short Paper
   link: https://doi.org/10.1007/978-3-030-71305-8_26
   note: 
@@ -163,7 +173,7 @@
   title: A Theoretical Analysis of Independent Business Owners’ Preferences for Informal Information Sources
   venue: Proceedings of the Association for Information Science and Technology 
   abb: ASIST '20 
-  suffix: Oct 22-Nov 1. Virtual.
+  suffix: Wiley. Oct 22-Nov 1. Virtual.
   type: Extended Abstract
   link: https://doi.org/10.1002/pra2.352
   note: 
@@ -173,7 +183,7 @@
   title: Cultural Activity Diversity and Community Characteristics&colon; An Exploratory Study
   venue: Sustainable Digital Communities. iConference 2020. Lecture Notes in Computer Science
   abb: 
-  suffix: 12051, pp. 32–49. Springer, Cham. March 23-26. Virtual.
+  suffix: 12051, pp. 32–49. Springer&colon; Cham. March 23-26. Virtual.
   type: Full Paper
   link: https://doi.org/10.1007/978-3-030-43687-2_3
   note: 
@@ -183,7 +193,7 @@
   title: How are Information Deserts Created? A Theory of Local Information Landscapes
   venue: Journal of the Association for Information Science and Technology
   abb: JASIST
-  suffix: 70(2), pp. 101-119.
+  suffix: 70(2), pp. 101-119. Wiley.
   type: Journal Article
   link: https://doi.org/10.1002/asi.24114
   note: Outstanding iSchool Student Paper Award
@@ -210,7 +220,7 @@
   title: Towards Understanding Communication Behavior Changes during Floods Using Cell Phone Data
   venue: International Conference on Social Informatics, Lecture Notes in Computer Science
   abb: SocInfo '18
-  suffix: 11186, pp. 97-107. Cham&colon; Springer. September 25-28. St. Petersburg, Russia.
+  suffix: 11186, pp. 97-107. Springer&colon; Cham. September 25-28. St. Petersburg, Russia.
   type: Short Paper
   link: https://doi.org/10.1007/978-3-030-01159-8_9
 
@@ -219,7 +229,7 @@
   title: Toward Identifying Values and Tensions in Designing a Historically-Sensitive Data Platform&colon; A Case-Study on Urban Renewal
   venue: iConference 2018 Proceedings. Lecture Notes in Computer Science
   abb:
-  suffix: 10766, pp. 632-637. Cham&colon; Springer. March 25-28. Sheffield, U.K.
+  suffix: 10766, pp. 632-637. Springer&colon; Cham. March 25-28. Sheffield, U.K.
   type: Short Paper
   link: https://doi.org/10.1007/978-3-319-78105-1_72
 
@@ -228,7 +238,7 @@
   title: Heuristics for Assessing Computational Archival Science (CAS) Research&colon; The Case of the Human Face of Big Data Project
   venue: The Computational Archival Science Workshop in IEEE Big Data, Proceedings
   abb: Big Data
-  suffix: pp. 2262-2270. December 11-14. Boston, U.S.
+  suffix: pp. 2262-2270. IEEE. December 11-14. Boston, U.S.
   type: Workshop Paper
   link: https://doi.org/10.1109/BigData.2017.8258179
 
@@ -255,7 +265,7 @@
   title: Toward an Ecology Theory of Creativity in IT Products&colon; A Study of Mobile Device Industry
   venue: 37th International Conference on Information Systems
   abb: ICIS '16
-  suffix: pp. 1-20. December 11-14. Dublin, Ireland
+  suffix: pp. 1-20. AIS. December 11-14. Dublin, Ireland
   type: Full Paper
   link: https://aisel.aisnet.org/icis2016/GeneralIS/Presentations/5/
   note: Best Paper Award (top 1)
@@ -275,7 +285,7 @@
   title: This is Not Just a Café&colon; Toward Capturing the Dynamics of Urban Places
   venue: The CityLab Workshop at the 10th International AAAI Conference on Web and Social Media
   abb: ICWSM '16
-  suffix: pp. 20-25. May 17-20. Cologne, Germany.
+  suffix: pp. 20-25. AAAI. May 17-20. Cologne, Germany.
   type: Workshop Paper
   link: https://doi.org/10.1609/icwsm.v10i2.14826
   note: 
@@ -305,7 +315,7 @@
   title: Information Behavior of International Students Settling in an Unfamiliar Geospatial Environment
   venue: Proceedings of the Association for Information Science and Technology
   abb: ASIST '14
-  suffix: 51(1). pp. 1-11. October 31-November 5. Seattle, U.S.
+  suffix: 51(1). pp. 1-11. Wiley. October 31-November 5. Seattle, U.S.
   type: Full Paper
   link: https://doi.org/10.1002/meet.2014.14505101068
   note: 
