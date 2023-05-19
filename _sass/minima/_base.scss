@@ -85,7 +85,9 @@ div.profile{
 }
 
 .profile-photo img{
-  width: 100%;
+  width: 213px;
+  height: 213px;
+  object-fit: cover;
 }
 
 /**
