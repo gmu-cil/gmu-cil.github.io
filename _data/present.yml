@@ -1,9 +1,19 @@
+- authors: Gordon E., Harlow, J., Lee, M.
+  year: 2023
+  title: Data Discretion&amp; Screen-Level Bureaucrats and Municipal Decision-Making
+  venue: Society for Social Studies of Science
+  abb: 4S
+  suffix: Nov. 8-11. Honolulu, HI.
+  type: Paper Presentation
+  link: 
+  note:
+
 - authors: Chen, V., Lee, M., Ojibe, N., Peters, S.
   year: 2023
-  title: Activating Social Capital to Organize Events&colon; A Geospatial Analysis of Meetup/Facebook Data from U.S. Cities.
-  venue: American Sociological Association Annual Meeting
+  title: Ethnic heterogeneity, income, and multiple dimensions of social capital&amp; Exploring Meetup and Facebook-based measurements
+  venue: American Sociological Association (ASA) Annual Meeting
   abb: ASA
-  suffix: August 17-21, Philadelphia, PA.
+  suffix: August 17-21. Philadelphia, PA.
   type: Working Paper Presentation
   link: 
   note:
@@ -13,7 +23,7 @@
   title: Measuring the Urban Renewal Impact
   venue: City of Asheville Community Reparation Commissions Meeting
   abb: 
-  suffix: March 20, Asheville, NC.
+  suffix: March 20. Asheville, NC.
   type: Community Presentation
   link: https://www.youtube.com/watch?v=HO8vPhU0gLs
   note:
@@ -23,7 +33,7 @@
   title: Activating Social Capital at the County Level&colon; A Geospatial Analysis of the Relationship between Social Ties and Event Organizing Using Meetup and Facebook Data
   venue: Eastern Sociological Society Conference
   abb: ESS
-  suffix: Feb. 23-26, Baltimore, MD.
+  suffix: Feb. 23-26. Baltimore, MD.
   type: Working Paper Presentation
   link: 
   note:
@@ -33,7 +43,7 @@
   title: Information Ecology&colon; How Can We Better Access Information?
   venue: Information Access Summit by Virginia Board for People with Disabilities (VBPD)
   abb: 
-  suffix: November 30, Richmond, VA.
+  suffix: November 30. Richmond, VA.
   type: Invited Talk
   link: 
   note:
@@ -43,7 +53,7 @@
   title: Supporting Social and Racial Justice through Computational Archival Science (CAS)
   venue: 86th Annual Meeting of the Society of American Archivists
   abb: ARCHIVES*RECORDS
-  suffix: August 25-26, Boston, MA.
+  suffix: August 25-26. Boston, MA.
   type: Presentation
   link: 
   note:
@@ -53,7 +63,7 @@
   title: Typology of Informal Risk Work&colon; Infrastructuring During COVID-19
   venue: Work in the Age of Intelligent Machines Summer Conference
   abb: WAIM
-  suffix: June 6-7, Washington D.C.
+  suffix: June 6-7. Washington D.C.
   type: Working Paper Discussion
   link: 
   note:
@@ -63,7 +73,7 @@
   title: Launching the Urban Renewal Impact Website and Storytelling
   venue: Community Event in Acheville, NC
   abb: 
-  suffix: June 24, Virtual.
+  suffix: June 24. Virtual.
   type: Web Launching Event
   link: https://www.youtube.com/watch?v=R4hPRMwlbcU
   note:
