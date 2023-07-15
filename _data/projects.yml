@@ -15,7 +15,7 @@
   website: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2217706&HistoricalAwards=false
   funding: NSF DASS Program (&num;2217706)
   collabo: Arizona State Univ., Lifting Up, CCI NOVA
-  pub: Hsu et al., 2022; Hsu et al., 2023
+  pub: Hsu et al., 2022; Hsu et al., 2023; Lee et al., 2023
 
 - title: Making Information Deserts Visible&colon; Computational Models, Disparities in Civic Technology Use, and Urban Decision Making
   status: Ended
@@ -49,7 +49,7 @@
   pub: 
 
 - title: AI for AI&colon; Toward Community-level Human-AI Collaborations in Local Meetups
-  status: On-Going
+  status: Ended
   fund: Funded
   image: "/assets/meetup.png"
   description: Artificial intelligence (AI) is increasingly playing more active roles than ever on Event-based Social Network (EBSN) platforms and is expected to alter local dynamics at scale. This pilot project aims to uncover how human-AI collaboration happens at the community level by implementing and simulating machine learning algorithms at the ecological level using local gathering data from Meetup.com.
@@ -71,7 +71,7 @@
 
 - title: A Visualization Tool and Assessment Framework for Civic Technology Use in the DMV Area&colon; The Case of 311 Systems During the COVID-19 Outbreak
   status: Ended
-  fund: Funded
+  fund: Funded (Planning)
   image: "/assets/dmv.png"
   description: During a global pandemic, many jurisdictions have used civic technologies such as 311 systems to manage non-emergency issues such as the violation of mask mandates. While civic issues that residents need to communicate are similar across the regions, jurisdictions' imposed communication methods vary significantly due to their policies, legacy systems, and institutional logics. By working with our community partner, Connected DMV, this planning project aims to understand how local governments in the D.C. area implement communication technologies during a crisis, and how people reappropriate the systems. Ultimately, this project seeks to suggest a regional technology strategy to cope with regional issues such as pandemics.
   website: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2043900&HistoricalAwards=false
