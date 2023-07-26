@@ -55,13 +55,13 @@
   title: Undergrad Student
   email: vgonzal8@gmu.edu
 
-- image: "/assets/members/joel.jpg"
-  name: Joel Adeniji
+- image: "/assets/members/rodrigo.jpg"
+  name: Rodrigo Plaza
   title: Undergrad Student
-  email: jadeniji@gmu.edu
+  email: rplaza@gmu.edu
 
-- image: "/assets/members/nnamdi.png"
-  name: Nnamdi Chibuzor Ojibe
-  title: Undergrad Student
-  email: nojibe@gmu.edu
+# - image: "/assets/members/nnamdi.png"
+#   name: Nnamdi Chibuzor Ojibe
+#   title: Undergrad Student
+#   email: nojibe@gmu.edu
   
