@@ -40,10 +40,10 @@
 #   website: https://ishana7.github.io
 #   email: ishana71298@gmail.com
 
-- image: "/assets/members/merlin.jpg"
-  name: Huldah Merlin Kolli
-  title: M.S. Student
-  email: hkolli@gmu.edu
+# - image: "/assets/members/merlin.jpg"
+#   name: Huldah Merlin Kolli
+#   title: M.S. Student
+#   email: hkolli@gmu.edu
 
 - image: "/assets/members/tulsi.jpg"
   name: Tulsi Shrivastava
