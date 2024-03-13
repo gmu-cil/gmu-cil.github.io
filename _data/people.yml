@@ -48,12 +48,12 @@
 - image: "/assets/members/tulsi.jpg"
   name: Tulsi Shrivastava
   title: M.S. Student
+  website: https://tulshri.github.io/portfolio/
   email: tshrivas@gmu.edu
 
 - image: "/assets/members/victoria.jpg"
   name: Victoria Gonzales
   title: Undergrad Student
-  website: https://tulshri.github.io/portfolio/
   email: vgonzal8@gmu.edu
 
 - image: "/assets/members/rodrigo.jpg"
