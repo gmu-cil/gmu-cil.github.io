@@ -34,6 +34,21 @@
   title: Ph.D. Student
   email: labubakr@gmu.edu
 
+- image: "/assets/members/poojitha.jpg"
+  name: Poojitha Anuvalasetty
+  title: M.S. Student
+  email: vanuvala@gmu.edu
+
+- image: "/assets/members/victoria.jpg"
+  name: Victoria Gonzales
+  title: Undergrad Student
+  email: vgonzal8@gmu.edu
+
+- image: "/assets/members/angela.jpg"
+  name: Angela Sidhu
+  title: Undergrad Student
+  email: asidhu3@gmu.edu
+
 # - image: "/assets/members/ishana.png"
 #   name: Ishana Shinde
 #   title: M.S. Student
@@ -45,24 +60,13 @@
 #   title: M.S. Student
 #   email: hkolli@gmu.edu
 
-- image: "/assets/members/tulsi.jpg"
-  name: Tulsi Shrivastava
-  title: M.S. Student
-  website: https://tulshri.github.io/portfolio/
-  email: tshrivas@gmu.edu
+# - image: "/assets/members/tulsi.jpg"
+#   name: Tulsi Shrivastava
+#   title: M.S. Student
+#   website: https://tulshri.github.io/portfolio/
+#   email: tshrivas@gmu.edu
 
-- image: "/assets/members/victoria.jpg"
-  name: Victoria Gonzales
-  title: Undergrad Student
-  email: vgonzal8@gmu.edu
-
-- image: "/assets/members/rodrigo.jpg"
-  name: Rodrigo Plaza
-  title: Undergrad Student
-  email: rplaza@gmu.edu
-
-- image: "/assets/members/angela.jpg"
-  name: Angela Sidhu
-  title: Undergrad Student
-  email: asidhu3@gmu.edu
-  
+# - image: "/assets/members/rodrigo.jpg"
+#   name: Rodrigo Plaza
+#   title: Undergrad Student
+#   email: rplaza@gmu.edu
