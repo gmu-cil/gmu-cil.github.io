@@ -34,20 +34,30 @@
   title: Ph.D. Student
   email: labubakr@gmu.edu
 
+- image: "/assets/members/gie.jpeg"
+  name: Gie Myung Lee
+  title: Ph.D. Student
+  email: glee10@gmu.edu
+
 - image: "/assets/members/poojitha.jpg"
   name: Poojitha Anuvalasetty
   title: M.S. Student
   email: vanuvala@gmu.edu
 
-- image: "/assets/members/victoria.jpg"
-  name: Victoria Gonzales
-  title: Undergrad Student
-  email: vgonzal8@gmu.edu
+- image: "/assets/members/adarsh.jpg"
+  name: Adarsh Gorremuchu
+  title: M.S. Student
+  email: agorremu@gmu.edu
 
-- image: "/assets/members/angela.jpg"
-  name: Angela Sidhu
-  title: Undergrad Student
-  email: asidhu3@gmu.edu
+# - image: "/assets/members/victoria.jpg"
+#   name: Victoria Gonzales
+#   title: Undergrad Student
+#   email: vgonzal8@gmu.edu
+
+# - image: "/assets/members/angela.jpg"
+#   name: Angela Sidhu
+#   title: Undergrad Student
+#   email: asidhu3@gmu.edu
 
 # - image: "/assets/members/ishana.png"
 #   name: Ishana Shinde

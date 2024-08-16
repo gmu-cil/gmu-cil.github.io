@@ -2,6 +2,12 @@
   description: PhD student Matt Willis presents our ERF paper on prospective cybersecurity professionals' onboarding strategies into the cybersecurity community at the <a href="https://amcis2024.aisconferences.org/" target="_blank">Americas Conference on Information Systems (AMCIS)</a>, held in Salt Lake City, Utah.
 
 - year: 
+  description: CIL welcomes Gie Myung Lee who begins his Ph.D. journey in the IST department, and M.S. student Adarsh Gorremuchu who will work on a news deserts project. 
+
+- year: 
+  description: CIL extends a warm farewell to Victoria Gonzales (BS in Statistics &amp; Computational Data Sciences), who graduates this month, and to Angela Sidhu (CS), who is transferring to Georgetown University.
+
+- year: 
   description: Myeong presents two papers at the <a href="https://dh2024.adho.org/" target="_blank">DH conference</a> held in Arlington, Virginia, one of which is co-authored with PhD student Julia Hsu.
 
 - year: Jul. 2024
@@ -175,20 +181,20 @@
 - year: 
   description: Consequential, a Carnegie Mellon's Podcast, covers Myeong's discussion on information deserts in their episode, <a href="https://consequentialpod.libsyn.com/is-information-democratized" target="_blank">"Is Information Democratized?"</a>
 
-- year: Dec. 2020
-  description: Myeong gives an BK21 Plus invited talk at the Department of Electrical Engineering at the University of Ulsan, South Korea. 
+# - year: Dec. 2020
+#   description: Myeong gives an BK21 Plus invited talk at the Department of Electrical Engineering at the University of Ulsan, South Korea. 
 
-- year: Aug. 2020
-  description: We welcome CIL member Julia Hsu who continues her research in the Ph.D. program at the IST department.
+# - year: Aug. 2020
+#   description: We welcome CIL member Julia Hsu who continues her research in the Ph.D. program at the IST department.
 
-- year: Mar. 2020
-  description: Myeong presents <a href="https://link.springer.com/chapter/10.1007/978-3-030-43687-2_3" target="_blank">a paper on cultural activity diversity</a> at the iConference 2020.
+# - year: Mar. 2020
+#   description: Myeong presents <a href="https://link.springer.com/chapter/10.1007/978-3-030-43687-2_3" target="_blank">a paper on cultural activity diversity</a> at the iConference 2020.
 
-- year: Feb. 2020
-  description: Our lab members, Julia, Vikas, Suhasini, Mark, and Bez present two research posters at the Engineering Week, GMU.
+# - year: Feb. 2020
+#   description: Our lab members, Julia, Vikas, Suhasini, Mark, and Bez present two research posters at the Engineering Week, GMU.
 
-- year: Jan. 2020
-  description: A student team led by Master's student Julia Hsu wins the Winner Award from the Wells Fargo Campus Analytics Challenge.
+# - year: Jan. 2020
+#   description: A student team led by Master's student Julia Hsu wins the Winner Award from the Wells Fargo Campus Analytics Challenge.
 
-- year: Dec. 2019
-  description: Myeong gives a talk on the value-sensitive design of a historical data platform at the Humanities-Centered Design Seminar at GMU.
+# - year: Dec. 2019
+#   description: Myeong gives a talk on the value-sensitive design of a historical data platform at the Humanities-Centered Design Seminar at GMU.
