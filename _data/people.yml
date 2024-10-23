@@ -39,10 +39,10 @@
   title: Ph.D. Student
   email: glee10@gmu.edu
 
-- image: "/assets/members/poojitha.jpg"
-  name: Poojitha Anuvalasetty
-  title: M.S. Student
-  email: vanuvala@gmu.edu
+# - image: "/assets/members/poojitha.jpg"
+#   name: Poojitha Anuvalasetty
+#   title: M.S. Student
+#   email: vanuvala@gmu.edu
 
 - image: "/assets/members/adarsh.jpg"
   name: Adarsh Gorremuchu
