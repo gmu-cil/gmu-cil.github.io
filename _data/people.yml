@@ -39,15 +39,20 @@
   title: Ph.D. Student
   email: glee10@gmu.edu
 
+- image: "/assets/members/surya.jpeg"
+  name: Suryaprakash Uppalapati
+  title: M.S. Student
+  email: suppala6@gmu.edu
+
 # - image: "/assets/members/poojitha.jpg"
 #   name: Poojitha Anuvalasetty
 #   title: M.S. Student
 #   email: vanuvala@gmu.edu
 
-- image: "/assets/members/adarsh.jpg"
-  name: Adarsh Gorremuchu
-  title: M.S. Student
-  email: agorremu@gmu.edu
+# - image: "/assets/members/adarsh.jpg"
+#   name: Adarsh Gorremuchu
+#   title: M.S. Student
+#   email: agorremu@gmu.edu
 
 # - image: "/assets/members/victoria.jpg"
 #   name: Victoria Gonzales
