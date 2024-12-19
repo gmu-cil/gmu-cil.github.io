@@ -39,10 +39,10 @@
   title: Ph.D. Student
   email: glee10@gmu.edu
 
-- image: "/assets/members/surya.jpg"
-  name: Suryaprakash Uppalapati
-  title: M.S. Student
-  email: suppala6@gmu.edu
+# - image: "/assets/members/surya.jpg"
+#   name: Suryaprakash Uppalapati
+#   title: M.S. Student
+#   email: suppala6@gmu.edu
 
 # - image: "/assets/members/poojitha.jpg"
 #   name: Poojitha Anuvalasetty
