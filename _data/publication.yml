@@ -1,11 +1,11 @@
 - authors: Lee, J., Park, S., Lee, M., Oh, S.
   year: 2025
   title: Exploring Librarians’ Experiences and Perceptions of Public Library Data Work
-  venue: Journal of Korean Library and Information Science Society [To Appear]
-  abb: 
-  suffix:  
+  venue: Journal of Korean Library and Information Science Society 
+  abb: KLISS
+  suffix: 56(1). pp.55-77.
   type: Journal Article
-  link: 
+  link: http://dx.doi.org/10.16981/kliss.56.1.202503.55
   note: 
 
 - authors: Marciano, R., Grant, R., Hill, A., Nicholas, P., Scheer, N., Wierdak, A., Conrad, M., McCoy, R., Lee, M., Robinson, P.N.
@@ -68,7 +68,7 @@
   link: https://doi.org/10.31219/osf.io/bmn79
   note: 
 
-- authors: Siraj, H., Whitman, S., Lee, M., Pine, K.
+- authors: Siraj, H., Whitman, S., Pine, K., Lee, M.
   year: 2024
   title: Exploring Domestic Workers’ Risk Work During the COVID-19 Pandemic
   venue: iConference 2024 Proceedings
