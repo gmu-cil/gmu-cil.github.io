@@ -8,7 +8,7 @@
   collabo: Arizona State Univ., UC Irvine, Fairfax FCFRD
 
 - title: Exploring How Convergence Methods Foster Shared Accountability to Reveal, Map, and Mitigate the Sources and Dynamics of Bias across Social Service Provisioning Systems
-  status: On-Going
+  status: Terminated (Apr. 2025)
   fund: Funded
   image: "/assets/dass.png"
   description: An approach to designing social services, called "systems of care," organizes services around individuals and their specific context. The goal of this project is to (1) advance accountable software systems through developing generalizable and localizable practices for exploring how to identify systemic sources of bias, (2) improve public service provisioning outcomes, and (3) minimize disparities from biased program outcomes. The project will leverage social theories, computational methods, and ethnographic approaches to translate social science findings into software practices based on a partnership with civic tech and non-profit organizations. The project outcome will enhance accountability in designing software systems that will be used as part of a larger socio-technical system of care. 
@@ -37,6 +37,16 @@
   funding: 
   collabo: Arizona State Univ.
   pub: Pine et al., 2021; Shukla et al., 2022
+
+- title: SAFETI&colon; Strategic Analysis for Fine-granular Injury and Fatality PrEvenTion Insight
+  status: On-Going
+  fund: Funded
+  image: "/assets/vdoli.png"
+  description: SAFETI is the first Mason–DOLI Innovation Lab initiative that turns more than 15 years of detailed Virginia workplace-accident records into forward-looking, preventive insights. Using predictive models, the computational approach developed for SAFETI estimates the likelihood of a fatality occurring within a specific time frame and sector, along with its associated probability. This shift from reactive to preventive measures is enabled by advanced spatio-temporal and predictive analytics. By replacing after-the-fact investigations with proactive, data-guided interventions, SAFETI lays the groundwork for regulators, employers, and researchers to target inspections, refine safety practices, and explore new solution spaces that keep Virginia’s workers safer.
+  website: https://doli.virginia.gov/
+  funding: Virginia Department of Labor and Industry (VDOLI)
+  collabo: VDOLI, Mason-DOLI Innovation Lab
+  pub: 
 
 - title: Mapping Information Ecology&colon; Understanding the Fragmentation of Disability Service Information
   status: Ended
