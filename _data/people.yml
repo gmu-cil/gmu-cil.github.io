@@ -20,11 +20,6 @@
   title: Ph.D. Student
   email: thinkwillis@gmail.com
 
-- image: "/assets/members/jinyi.png"
-  name: Jinyi Kim
-  title: Ph.D. Student
-  email: jkim266@gmu.edu
-
 - name: Zhehan Zhang
   title: Ph.D. Student
   email: zzhang22@gmu.edu
@@ -38,11 +33,6 @@
   name: Gie Myung Lee
   title: Ph.D. Student
   email: glee10@gmu.edu
-
-- image: "/assets/members/tim.jpeg"
-  name: Timothy Mcaliley
-  title: Ph.D. Student
-  email: tmcalil@gmu.edu
 
 - image: "/assets/members/utkarsh.jpg"
   name: Utkarsh Desai
@@ -58,6 +48,16 @@
   name: Tugce Gundogdu
   title: Undergrad Student
   email: tgundogd@gmu.edu
+
+# - image: "/assets/members/tim.jpeg"
+#   name: Timothy Mcaliley
+#   title: Ph.D. Student
+#   email: tmcalil@gmu.edu
+
+# - image: "/assets/members/jinyi.png"
+#   name: Jinyi Kim
+#   title: Ph.D. Student
+#   email: jkim266@gmu.edu
 
 # - image: "/assets/members/poojitha.jpg"
 #   name: Poojitha Anuvalasetty
