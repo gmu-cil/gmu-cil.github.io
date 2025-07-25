@@ -34,15 +34,15 @@
   title: Ph.D. Student
   email: glee10@gmu.edu
 
-- image: "/assets/members/utkarsh.jpg"
-  name: Utkarsh Desai
-  title: M.S. Student
-  email: udesai4@gmu.edu
+# - image: "/assets/members/utkarsh.jpg"
+#   name: Utkarsh Desai
+#   title: M.S. Student
+#   email: udesai4@gmu.edu
 
-- image: "/assets/members/bhuvan.png"
-  name: Bhuvan Thatthari
-  title: M.S. Student
-  email: bthattha@gmu.edu
+# - image: "/assets/members/bhuvan.png"
+#   name: Bhuvan Thatthari
+#   title: M.S. Student
+#   email: bthattha@gmu.edu
 
 - image: "/assets/members/tugce.png"
   name: Tugce Gundogdu
