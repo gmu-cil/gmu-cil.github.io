@@ -34,11 +34,6 @@
   title: Ph.D. Student
   email: glee10@gmu.edu
 
-# - image: "/assets/members/utkarsh.jpg"
-#   name: Utkarsh Desai
-#   title: M.S. Student
-#   email: udesai4@gmu.edu
-
 # - image: "/assets/members/bhuvan.png"
 #   name: Bhuvan Thatthari
 #   title: M.S. Student
@@ -48,6 +43,16 @@
   name: Tugce Gundogdu
   title: Undergrad Student
   email: tgundogd@gmu.edu
+
+- image: "/assets/members/zahir.jpg"
+  name: Zunayeed Zahir
+  title: Visiting Student
+  email: zzahir2@gmu.edu
+
+- image: "/assets/members/utkarsh.jpg"
+  name: Utkarsh Desai
+  title: Visiting Student
+  email: udesai4@gmu.edu
 
 # - image: "/assets/members/tim.jpeg"
 #   name: Timothy Mcaliley
