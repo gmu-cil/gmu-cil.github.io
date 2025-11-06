@@ -8,6 +8,26 @@
   link: https://doi.org/10.1016/j.cities.2025.106530
   note:
 
+- authors: Wang, J., Burcu, T., Ivic, R., Butler, B.S., Lee, M.
+  year: 2025
+  title: News Deserts as Information Problems&colon; A Case Study of Local News Coverage in Alabama
+  venue: Proceedings of the Association for Information Science and Technology
+  abb: ASIST '25
+  suffix: 62(1). pp. 741-753. Wiley. Nov 14-18. Washington D.C.
+  type: Full Paper
+  link: https://doi.org/10.1002/pra2.1293
+  note:
+
+- authors: Hsu, J. H-P., Lee, M.
+  year: 2025
+  title: From Open‑Ended Text to Taxonomy&colon; An LLM‑Based Framework for Information Sources for Disability Services
+  venue: Proceedings of the Association for Information Science and Technology
+  abb: ASIST '25
+  suffix: 62(1). pp. 915-919. Wiley. Nov 14-18. Washington D.C.
+  type: Short Paper
+  link: https://doi.org/10.1002/pra2.1313
+  note:
+
 - authors: Kim, J., Hsu, J. H-P., Sohn, G., Lee, G., Lee, M.
   year: forthcoming
   title: Leveling Socioeconomic Disparities&colon; The Role of Service Availability in School Dropout Rates
@@ -46,26 +66,6 @@
   suffix: 62(1). pp. 1708-1710. Wiley. Nov 14-18. Washington D.C.
   type: Extended Abstract
   link: https://doi.org/10.1002/pra2.1516
-  note:
-
-- authors: Wang, J., Burcu, T., Ivic, R., Butler, B.S., Lee, M.
-  year: 2025
-  title: News Deserts as Information Problems&colon; A Case Study of Local News Coverage in Alabama
-  venue: Proceedings of the Association for Information Science and Technology
-  abb: ASIST '25
-  suffix: 62(1). pp. 741-753. Wiley. Nov 14-18. Washington D.C.
-  type: Full Paper
-  link: https://doi.org/10.1002/pra2.1293
-  note:
-
-- authors: Hsu, J. H-P., Lee, M.
-  year: 2025
-  title: From Open‑Ended Text to Taxonomy&colon; An LLM‑Based Framework for Information Sources for Disability Services
-  venue: Proceedings of the Association for Information Science and Technology
-  abb: ASIST '25
-  suffix: 62(1). pp. 915-919. Wiley. Nov 14-18. Washington D.C.
-  type: Short Paper
-  link: https://doi.org/10.1002/pra2.1313
   note:
 
 - authors: Lee, M., Mejía, G.M., Warren, R., Chen, Y., Siraj, H., Mazmanian, M., Mandhre, R., Pine, K.
