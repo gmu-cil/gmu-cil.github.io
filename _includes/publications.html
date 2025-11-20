@@ -21,7 +21,7 @@
         <span> {{ item.authors }} </span>
         <span> ({{ item.year }}). </span>
         <span> {{ item.title }}. </span>
-        <span class="venue"> {{ item.venue }} </span>{% if item.abb %}<span class="venue">(</span><span class="abb">{{item.abb}}</span><span class="venue">)</span>{% endif %}{% if item.suffix %}<span class="suffix">, {{item.suffix}}</span>{% endif %}
+        <span class="venue"> {{ item.venue }} </span>{% if item.abb %}<span class="venue">(</span><span class="abb">{{item.abb}}</span><span class="venue">)</span>{% endif %}{% if item.suffix %}<span class="suffix">. {{item.suffix}}</span>{% endif %}
         
 
         {% if item.link %}
