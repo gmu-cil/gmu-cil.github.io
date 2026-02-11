@@ -18,7 +18,7 @@
       
   {% for item in items %}  
       <div class="pub"> 
-        <span>{{ items|length - loop.index0 }}.</span>
+        <span>{{ forloop.rindex }}.</span>
         <span> {{ item.authors }} </span>
         <span> ({{ item.year }}). </span>
         <span> {{ item.title }}. </span>
