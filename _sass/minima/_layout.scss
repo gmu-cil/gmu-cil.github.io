@@ -250,3 +250,32 @@
     }
   }
 }
+
+
+
+/**
+ * News section
+ */
+.news-hidden {
+  display: none;
+}
+
+.news-read-more-wrapper {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.news-read-more-btn {
+  padding: 8px 24px;
+  cursor: pointer;
+  background: #006633;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+
+  &:hover {
+    background: darken(#006633, 8%);
+  }
+}

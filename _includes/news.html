@@ -1,12 +1,12 @@
 {% assign data = site.data %}
 {% if data.chronicles %}
-  
+
   {% assign histories = data.chronicles %}
-  
-  {% for item in histories %}  
-    <div class="col-md-6">
+
+  {% for item in histories %}
+    <div class="col-md-6 news-item{% if forloop.index > 30 %} news-hidden{% endif %}">
       <div class="row">
-               
+
             {% if item.year %}
               <div class="year">
                 {{ item.year }}
@@ -25,9 +25,26 @@
                 </div>
               {% endif %}
 
-            </div>          
-                
+            </div>
+
       </div>
     </div>
   {% endfor %}
+
+  {% if histories.size > 30 %}
+    <div class="news-read-more-wrapper" id="news-read-more-wrapper">
+      <button class="news-read-more-btn" id="news-read-more">
+        Read more
+      </button>
+    </div>
+    <script>
+      document.getElementById('news-read-more').addEventListener('click', function() {
+        var hidden = document.querySelectorAll('.news-hidden');
+        for (var i = 0; i < hidden.length; i++) {
+          hidden[i].classList.remove('news-hidden');
+        }
+        document.getElementById('news-read-more-wrapper').style.display = 'none';
+      });
+    </script>
+  {% endif %}
 {% endif %}
