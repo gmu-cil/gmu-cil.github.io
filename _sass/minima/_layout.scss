@@ -267,16 +267,17 @@
 }
 
 .news-read-more-btn {
-  padding: 8px 24px;
+  padding: 5px 24px;
   cursor: pointer;
   font-family: $base-font-family;
-  font-size: $base-font-size;
-  background: #828282;
+  @include relative-font-size(0.9375);
+  background: $grey-color;
   color: #fff;
   border: none;
   border-radius: 4px;
+  margin-top: 12px;
 
   &:hover {
-    background: darken(#828282, 10%);
+    background: darken($grey-color, 10%);
   }
 }
