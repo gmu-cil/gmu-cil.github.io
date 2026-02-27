@@ -269,13 +269,14 @@
 .news-read-more-btn {
   padding: 8px 24px;
   cursor: pointer;
-  background: #006633;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  background: #828282;
   color: #fff;
   border: none;
   border-radius: 4px;
-  font-size: 14px;
 
   &:hover {
-    background: darken(#006633, 8%);
+    background: darken(#828282, 10%);
   }
 }
