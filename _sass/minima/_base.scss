@@ -310,6 +310,54 @@ li {
   background: $grey-color;
 }
 
+.pub-cite-icons {
+  display: inline-flex;
+  gap: 3px;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+
+.cite-btn {
+  display: inline-flex;
+  align-items: center;
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 2px 5px;
+  cursor: pointer;
+  color: #666;
+  vertical-align: middle;
+  margin-left: 2px;
+  transition: all 0.15s;
+}
+
+.cite-btn:hover {
+  background: #eee;
+  border-color: #999;
+  color: #333;
+}
+
+.cite-tooltip {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-size: $small-font-size;
+  z-index: 1000;
+  animation: fadeInOut 1.5s ease;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  15% { opacity: 1; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
 
 /**
  * Headings

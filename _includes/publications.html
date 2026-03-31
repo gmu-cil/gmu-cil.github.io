@@ -16,14 +16,14 @@
   <div class="container-fluid">
     <div class="row">
       
-  {% for item in items %}  
-      <div class="pub"> 
+  {% for item in items %}
+      <div class="pub">
         <span>[{{ forloop.rindex }}]</span>
         <span> {{ item.authors }} </span>
         <span> ({{ item.year }}). </span>
         <span> {{ item.title }}. </span>
         <span class="venue"> {{ item.venue }} </span>{% if item.abb %}<span class="venue">(</span><span class="abb">{{item.abb}}</span><span class="venue">)</span>{% endif %}{% if item.suffix %}<span class="suffix">. {{item.suffix}}</span>{% endif %}
-        
+
 
         {% if item.link %}
           <span class="link">
@@ -39,6 +39,11 @@
         {% if item.note2 %}
           <span class="note note2"> {{ item.note2 }} </span>
         {% endif %}
+
+        <span class="pub-cite-icons">
+          <button class="cite-btn" onclick="copyCitation(this)" data-authors="{{ item.authors | escape }}" data-year="{{ item.year }}" data-title="{{ item.title | escape }}" data-venue="{{ item.venue | escape }}" data-abb="{{ item.abb | escape }}" data-suffix="{{ item.suffix | escape }}" data-link="{{ item.link }}" title="Copy APA citation"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+          <button class="cite-btn" onclick="copyBibtex(this)" data-authors="{{ item.authors | escape }}" data-year="{{ item.year }}" data-title="{{ item.title | escape }}" data-venue="{{ item.venue | escape }}" data-type="{{ item.type | escape }}" data-link="{{ item.link }}" title="Copy BibTeX"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span style="font-size:9px;margin-left:1px;">BibTeX</span></button>
+        </span>
 
       </div>
   {% endfor %}             
@@ -58,8 +63,8 @@
   <div class="container-fluid">
     <div class="row">
       
-  {% for item in items %}  
-      <div class="pub"> 
+  {% for item in items %}
+      <div class="pub">
         <span> {{ item.authors }} </span>
         <span> ({{ item.year }}). </span>
         <span> {{ item.title }}. </span>
@@ -80,25 +85,30 @@
           <span class="note note2"> {{ item.note2 }} </span>
         {% endif %}
 
+        <span class="pub-cite-icons">
+          <button class="cite-btn" onclick="copyCitation(this)" data-authors="{{ item.authors | escape }}" data-year="{{ item.year }}" data-title="{{ item.title | escape }}" data-venue="{{ item.venue | escape }}" data-abb="{{ item.abb | escape }}" data-suffix="{{ item.suffix | escape }}" data-link="{{ item.link }}" title="Copy APA citation"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+          <button class="cite-btn" onclick="copyBibtex(this)" data-authors="{{ item.authors | escape }}" data-year="{{ item.year }}" data-title="{{ item.title | escape }}" data-venue="{{ item.venue | escape }}" data-type="{{ item.type | escape }}" data-link="{{ item.link }}" title="Copy BibTeX"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span style="font-size:9px;margin-left:1px;">BibTeX</span></button>
+        </span>
+
       </div>
-  {% endfor %}             
-                
+  {% endfor %}
+
     </div>
   </div>
-    
+
 {% endif %}
 
 <br>
 {% if data.present %}
-  
+
   {% assign items = data.present %}
   <h3 class="page-heading" id="present">Selected Presentations</h3>
-  
+
   <div class="container-fluid">
     <div class="row">
-      
-  {% for item in items %}  
-      <div class="pub"> 
+
+  {% for item in items %}
+      <div class="pub">
         <span> {{ item.authors }} </span>
         <span> ({{ item.year }}). </span>
         <span> {{ item.title }}. </span>
@@ -118,6 +128,11 @@
         {% if item.note2 %}
           <span class="note note2"> {{ item.note2 }} </span>
         {% endif %}
+
+        <span class="pub-cite-icons">
+          <button class="cite-btn" onclick="copyCitation(this)" data-authors="{{ item.authors | escape }}" data-year="{{ item.year }}" data-title="{{ item.title | escape }}" data-venue="{{ item.venue | escape }}" data-abb="{{ item.abb | escape }}" data-suffix="{{ item.suffix | escape }}" data-link="{{ item.link }}" title="Copy APA citation"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+          <button class="cite-btn" onclick="copyBibtex(this)" data-authors="{{ item.authors | escape }}" data-year="{{ item.year }}" data-title="{{ item.title | escape }}" data-venue="{{ item.venue | escape }}" data-type="{{ item.type | escape }}" data-link="{{ item.link }}" title="Copy BibTeX"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span style="font-size:9px;margin-left:1px;">BibTeX</span></button>
+        </span>
 
       </div>
   {% endfor %}             
@@ -135,8 +150,8 @@
     <div class="container-fluid">
       <div class="row">
 
-        {% for item in items %}  
-        <div class="pub"> 
+        {% for item in items %}
+        <div class="pub">
           <span> {{ item.title }}</span>
           <span> ({{ item.year }}): </span>
           <span class="software">{{item.suffix}}</span>
@@ -147,11 +162,112 @@
             </span>
           {% endif %}
 
+          <span class="pub-cite-icons">
+            <button class="cite-btn" onclick="copySoftwareCitation(this)" data-title="{{ item.title | escape }}" data-year="{{ item.year }}" data-suffix="{{ item.suffix | escape }}" data-link="{{ item.link }}" title="Copy citation"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>
+            <button class="cite-btn" onclick="copySoftwareBibtex(this)" data-title="{{ item.title | escape }}" data-year="{{ item.year }}" data-suffix="{{ item.suffix | escape }}" data-link="{{ item.link }}" title="Copy BibTeX"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span style="font-size:9px;margin-left:1px;">BibTeX</span></button>
+          </span>
+
         </div>
         {% endfor %} 
       </div>  
     
     </div>
-    
+
 {% endif %}
 
+<script>
+function decodeHtml(html) {
+  var tmp = document.createElement('div');
+  tmp.innerHTML = html;
+  return tmp.textContent || tmp.innerText || '';
+}
+
+function copyCitation(btn) {
+  var authors = decodeHtml(btn.getAttribute('data-authors'));
+  var year = btn.getAttribute('data-year');
+  var title = decodeHtml(btn.getAttribute('data-title'));
+  var venue = decodeHtml(btn.getAttribute('data-venue'));
+  var abb = decodeHtml(btn.getAttribute('data-abb') || '');
+  var suffix = decodeHtml(btn.getAttribute('data-suffix') || '');
+  var link = btn.getAttribute('data-link') || '';
+
+  var citation = authors + ' (' + year + '). ' + title + '. ' + venue;
+  if (abb) citation += ' (' + abb + ')';
+  if (suffix) citation += '. ' + suffix;
+  if (link) citation += ' ' + link;
+
+  navigator.clipboard.writeText(citation).then(function() { showCiteTooltip('Citation copied!'); });
+}
+
+function copyBibtex(btn) {
+  var authorsRaw = decodeHtml(btn.getAttribute('data-authors'));
+  var title = decodeHtml(btn.getAttribute('data-title'));
+  var year = btn.getAttribute('data-year');
+  var venue = decodeHtml(btn.getAttribute('data-venue'));
+  var pubType = decodeHtml(btn.getAttribute('data-type') || '');
+  var link = btn.getAttribute('data-link') || '';
+
+  var authors = authorsRaw.split(',').map(function(a) {
+    return a.trim();
+  }).join(' and ');
+
+  var key = (authorsRaw.split(',')[0].trim().split(/\s+/).pop() || 'unknown').toLowerCase() + year;
+  var type = 'article';
+  var pt = pubType.toLowerCase();
+  if (pt === 'thesis') type = 'phdthesis';
+  else if (pt === 'book chapter') type = 'incollection';
+  else if (pt === 'report') type = 'techreport';
+  else {
+    var v = venue.toLowerCase();
+    if (v.indexOf('proceedings') !== -1 || v.indexOf('conference') !== -1 || v.indexOf('workshop') !== -1 || v.indexOf('iconference') !== -1) type = 'inproceedings';
+  }
+
+  var bib = '@' + type + '{' + key + ',\n';
+  bib += '  author = {' + authors + '},\n';
+  bib += '  title = {' + title + '},\n';
+  bib += '  year = {' + year + '},\n';
+  if (type === 'inproceedings' || type === 'incollection') bib += '  booktitle = {' + venue + '},\n';
+  else if (type === 'phdthesis' || type === 'mastersthesis') bib += '  school = {' + venue + '},\n';
+  else bib += '  journal = {' + venue + '},\n';
+  if (link && link.indexOf('doi.org') !== -1) bib += '  doi = {' + link.replace(/https?:\/\/doi\.org\//, '') + '},\n';
+  if (link) bib += '  url = {' + link + '}\n';
+  bib += '}';
+
+  navigator.clipboard.writeText(bib).then(function() { showCiteTooltip('BibTeX copied!'); });
+}
+
+function copySoftwareCitation(btn) {
+  var title = decodeHtml(btn.getAttribute('data-title'));
+  var year = btn.getAttribute('data-year');
+  var link = btn.getAttribute('data-link') || '';
+
+  var citation = 'Lee, M. (' + year + '). ' + title + ' [Software].';
+  if (link) citation += ' ' + link;
+
+  navigator.clipboard.writeText(citation).then(function() { showCiteTooltip('Citation copied!'); });
+}
+
+function copySoftwareBibtex(btn) {
+  var title = decodeHtml(btn.getAttribute('data-title'));
+  var year = btn.getAttribute('data-year');
+  var link = btn.getAttribute('data-link') || '';
+
+  var key = title.split(/\s+/)[0].toLowerCase() + year;
+  var bib = '@misc{' + key + ',\n';
+  bib += '  author = {Lee, Myeong},\n';
+  bib += '  title = {' + title + '},\n';
+  bib += '  year = {' + year + '},\n';
+  if (link) bib += '  url = {' + link + '}\n';
+  bib += '}';
+
+  navigator.clipboard.writeText(bib).then(function() { showCiteTooltip('BibTeX copied!'); });
+}
+
+function showCiteTooltip(msg) {
+  var tip = document.createElement('span');
+  tip.textContent = msg;
+  tip.className = 'cite-tooltip';
+  document.body.appendChild(tip);
+  setTimeout(function() { tip.remove(); }, 1500);
+}
+</script>
