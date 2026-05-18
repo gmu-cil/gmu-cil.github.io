@@ -214,19 +214,17 @@ div.profile{
 }
 
 .alumni-dissertation {
-  font-size: 0.85em;
   color: $grey-color;
   margin: 2px 0 0 0;
 }
 
 .alumni-dissertation-label {
   display: inline-block;
-  font-weight: 600;
   color: #fff;
   background: $brand-color;
-  padding: 1px 8px;
-  border-radius: 10px;
-  vertical-align: middle;
+  padding: 0 6px;
+  border-radius: 8px;
+  vertical-align: baseline;
   margin-right: 4px;
 }
 
