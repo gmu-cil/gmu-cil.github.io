@@ -213,11 +213,27 @@ div.profile{
   margin-bottom: 4px;
 }
 
+.alumni-home-link,
+.alumni-home-link:visited {
+  display: inline-block;
+  background: $grey-color;
+  color: $background-color;
+  padding: 1px 4px;
+  border-radius: 5px;
+  line-height: 1;
+  margin-left: 4px;
+  vertical-align: baseline;
+}
+
+.alumni-home-link:hover {
+  background: $grey-color-dark;
+  color: $background-color;
+}
+
 .alumni-home-link svg {
-  width: 12px;
-  height: 12px;
-  vertical-align: -1px;
-  margin-left: 2px;
+  width: 14px;
+  height: 14px;
+  vertical-align: -3px;
 }
 
 .alumni-dissertation {
