@@ -218,11 +218,11 @@ div.profile{
   display: inline-block;
   background: $grey-color;
   color: $background-color;
-  padding: 1px 4px;
+  padding: 0 4px;
   border-radius: 5px;
-  line-height: 1;
+  line-height: 0;
   margin-left: 4px;
-  vertical-align: baseline;
+  vertical-align: -2px;
 }
 
 .alumni-home-link:hover {
@@ -233,7 +233,7 @@ div.profile{
 .alumni-home-link svg {
   width: 14px;
   height: 14px;
-  vertical-align: -3px;
+  display: block;
 }
 
 .alumni-dissertation {
