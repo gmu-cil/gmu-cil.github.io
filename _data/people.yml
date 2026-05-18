@@ -38,11 +38,6 @@
   title: Undergrad Student
   email: jpark261@gmu.edu
 
-- image: "/assets/members/juyoung.jpeg"
-  name: Juyoung Byun
-  title: Undergrad Student
-  email: jbyun5@gmu.edu
-
 - image: "/assets/members/hanaan.jpeg"
   name: Hanaan Kazia
   title: Undergrad Student
@@ -52,6 +47,16 @@
   name: Amie Bui
   title: Undergrad Student
   email: abui25@gmu.edu
+
+- image: "/assets/members/celina.jpg"
+  name: Celina Nguyen
+  title: Undergrad Student
+  email: cnguy4@gmu.edu
+
+- image: "/assets/members/yasmin.jpg"
+  name: Yasmin Tamer
+  title: Undergrad Student
+  email: ytamer@gmu.edu
 
 - image: "/assets/members/utkarsh.jpg"
   name: Utkarsh Desai
@@ -63,6 +68,11 @@
 #   title: Ph.D. Candidate
 #   website: https://juliahsu.github.io
 #   email: hhsu2@gmu.edu
+
+# - image: "/assets/members/juyoung.jpeg"
+#   name: Juyoung Byun
+#   title: Undergrad Student
+#   email: jbyun5@gmu.edu
 
 # - image: "/assets/members/bhuvan.png"
 #   name: Bhuvan Thatthari
