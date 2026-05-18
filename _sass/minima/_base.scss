@@ -217,7 +217,7 @@ div.profile{
 .alumni-home-link,
 .alumni-home-link:visited {
   display: inline-block;
-  background: $grey-color;
+  background: $brand-color;
   color: $background-color;
   padding: 2px 3px;
   border-radius: 5px;
@@ -227,7 +227,7 @@ div.profile{
 }
 
 .alumni-home-link:hover {
-  background: $grey-color-dark;
+  background: $brand-color-emph;
   color: $background-color;
 }
 
