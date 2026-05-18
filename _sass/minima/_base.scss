@@ -210,7 +210,7 @@ div.profile{
 }
 
 .alumni-featured {
-  margin-bottom: 12px;
+  margin-bottom: 4px;
 }
 
 .alumni-badge {
@@ -225,11 +225,19 @@ div.profile{
   margin: 0 2px;
 }
 
+.alumni-badge-icon {
+  vertical-align: -2px;
+  margin-right: 4px;
+}
+
 .alumni-dissertation {
   font-size: 0.85em;
   color: $grey-color;
   margin: 2px 0 0 0;
-  padding-left: 20px;
+}
+
+.alumni-dissertation-label {
+  font-weight: 600;
 }
 
 div.name{
