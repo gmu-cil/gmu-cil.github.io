@@ -4,12 +4,6 @@
   website: https://myeonglee.com
   email: mlee89@gmu.edu
 
-- image: "/assets/members/julia.png"
-  name: Julia H.P. Hsu
-  title: Ph.D. Candidate
-  website: https://juliahsu.github.io
-  email: hhsu2@gmu.edu
-
 - image: "/assets/members/hiba.png"
   name: Hiba Siraj
   title: Ph.D. Student
@@ -63,6 +57,12 @@
   name: Utkarsh Desai
   title: Visiting Student
   email: udesai4@gmu.edu
+
+# - image: "/assets/members/julia.png"
+#   name: Julia H.P. Hsu
+#   title: Ph.D. Candidate
+#   website: https://juliahsu.github.io
+#   email: hhsu2@gmu.edu
 
 # - image: "/assets/members/bhuvan.png"
 #   name: Bhuvan Thatthari
