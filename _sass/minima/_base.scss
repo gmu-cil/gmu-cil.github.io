@@ -220,7 +220,14 @@ div.profile{
 }
 
 .alumni-dissertation-label {
+  display: inline-block;
   font-weight: 600;
+  color: #fff;
+  background: $brand-color;
+  padding: 1px 8px;
+  border-radius: 10px;
+  vertical-align: middle;
+  margin-right: 4px;
 }
 
 div.name{
