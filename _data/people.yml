@@ -33,16 +33,6 @@
   title: Undergrad Student
   email: tgundogd@gmu.edu
 
-- image: "/assets/members/jaewon.jpg"
-  name: Jaewon Park
-  title: Undergrad Student
-  email: jpark261@gmu.edu
-
-- image: "/assets/members/hanaan.jpeg"
-  name: Hanaan Kazia
-  title: Undergrad Student
-  email: hkazia@gmu.edu
-
 - image: "/assets/members/amie.jpeg"
   name: Amie Bui
   title: Undergrad Student
@@ -62,6 +52,16 @@
   name: Utkarsh Desai
   title: Visiting Student
   email: udesai4@gmu.edu
+
+# - image: "/assets/members/jaewon.jpg"
+#   name: Jaewon Park
+#   title: Undergrad Student
+#   email: jpark261@gmu.edu
+
+# - image: "/assets/members/hanaan.jpeg"
+#   name: Hanaan Kazia
+#   title: Undergrad Student
+#   email: hkazia@gmu.edu
 
 # - image: "/assets/members/julia.png"
 #   name: Julia H.P. Hsu
