@@ -28,6 +28,11 @@
   title: Ph.D. Student
   email: glee10@gmu.edu
 
+- image: "/assets/members/zainab.jpg"
+  name: Zainab Shamim
+  title: Ph.D. Student
+  email: zshamim@gmu.edu
+
 - image: "/assets/members/tugce.png"
   name: Tugce Gundogdu
   title: Undergrad Student
@@ -52,6 +57,11 @@
   name: Utkarsh Desai
   title: Visiting Student
   email: udesai4@gmu.edu
+
+- image: "/assets/members/shreeya.jpg"
+  name: Shreeya Sharda
+  title: Visiting Student
+  email: ssharda2@gmu.edu
 
 # - image: "/assets/members/jaewon.jpg"
 #   name: Jaewon Park
