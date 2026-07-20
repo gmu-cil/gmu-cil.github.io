@@ -30,13 +30,13 @@
             {{ person.title }}            
             </div>
           {% if person.website %}
-            <span class="link"><a href="{{ person.website }}" target="_blank">[web]</a></span>
+            <span class="link"><a href="{{ person.website }}" target="_blank" rel="noopener">[web]</a></span>
           {% endif %}
         
           {% if person.email %}
             <span class="link">
             {% assign mail = "mailto:" | append: person.email %}
-            <a href="{{ mail }}" target="_blank">[email]</a></span>
+            <a href="{{ mail }}" target="_blank" rel="noopener">[email]</a></span>
           {% endif %}
           </div>
       </div>

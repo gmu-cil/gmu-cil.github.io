@@ -30,7 +30,7 @@
 
           {% if project.funding %}
             {% if project.website %}
-            <span class="link"><a href="{{ project.website }}" target="_blank">{{ project.funding }}</a></span>
+            <span class="link"><a href="{{ project.website }}" target="_blank" rel="noopener">{{ project.funding }}</a></span>
             {% else %} 
              <span class="collabo">{{ project.funding }}</span>
             {% endif %}
@@ -50,7 +50,7 @@
 
           {% if project.system %}
             <div class="p-pub">
-              <a href="{{ project.systemlink }}" target="_blank"><span>System: </span></a><span> {{ project.system }}</span>
+              <a href="{{ project.systemlink }}" target="_blank" rel="noopener"><span>System: </span></a><span> {{ project.system }}</span>
             </div>
           {% endif %}
 
