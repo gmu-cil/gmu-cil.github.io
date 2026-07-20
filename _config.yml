@@ -46,7 +46,12 @@ defaults:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+# GitHub Pages enables jekyll-optional-front-matter, which turns any root-level
+# .md file into a page and runs Liquid over it. CLAUDE.md documents Liquid tags
+# literally, so it must be excluded or the build fails on a syntax error.
+exclude:
+  - CLAUDE.md
+
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

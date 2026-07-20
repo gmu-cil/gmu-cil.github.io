@@ -109,7 +109,18 @@ Principles the existing CSS follows:
 `_includes/head.html` cache-busts `/assets/main.css` with `site.time`, so style edits show up
 immediately without a hard refresh.
 
-### Two traps
+### Traps
+
+- **Root `.md` files become pages, and Liquid runs over them.** GitHub Pages builds with
+  `jekyll-optional-front-matter` enabled, so a markdown file at the repo root with no front matter
+  is still rendered as a page — and any `{%` tag inside it is *executed*, not shown. Documenting
+  Liquid literally in such a file fails the build with `Liquid syntax error`. CLAUDE.md is listed
+  under `exclude:` in `_config.yml` for exactly this reason; keep it there, and add any new
+  docs-only markdown to that list too.
+- **The published site is built by GitHub Pages' own toolchain, not this Gemfile.** The Actions log
+  shows `github-pages v232` / `jekyll v3.10.0`, while the Gemfile pins Jekyll 4.0. A local build
+  passing is therefore not proof the Pages build will; check
+  `gh run list` after pushing.
 
 - **Bootstrap is dead code.** `_sass/_bootstrap.scss` and `_sass/bootstrap/` vendor Bootstrap
   3.3.6, and the Gemfile pulls the `bootstrap` 4.6.2 gem, but nothing imports either — `minima.scss`
