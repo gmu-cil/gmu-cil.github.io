@@ -16,7 +16,10 @@ bundle exec jekyll serve      # local preview at http://127.0.0.1:4000
 bundle exec jekyll build      # output to _site/ (gitignored)
 ```
 
-No tests, no linter.
+No tests, no linter. Ruby version is pinned in `.ruby-version` (3.3.11 via rbenv); the Gemfile
+depends on the `github-pages` gem so a local build uses the same Jekyll (3.10) and plugin set that
+GitHub Pages ships — keep it that way rather than swapping in a bare `jekyll` gem, or local builds
+will silently diverge from production.
 
 ## Architecture
 
@@ -117,16 +120,12 @@ immediately without a hard refresh.
   Liquid literally in such a file fails the build with `Liquid syntax error`. CLAUDE.md is listed
   under `exclude:` in `_config.yml` for exactly this reason; keep it there, and add any new
   docs-only markdown to that list too.
-- **The published site is built by GitHub Pages' own toolchain, not this Gemfile.** The Actions log
-  shows `github-pages v232` / `jekyll v3.10.0`, while the Gemfile pins Jekyll 4.0. A local build
-  passing is therefore not proof the Pages build will; check
-  `gh run list` after pushing.
-
+- **Confirm the Pages build, not just the local one.** There is no CI gate — pushing to `master`
+  triggers the `pages build and deployment` Actions run, and that is the only thing that can fail
+  the deploy. Even with the toolchains now matched, run `gh run list -L 1` after pushing (Pages'
+  own build-status API can report stale "building" while the Action has already failed).
 - **Bootstrap is dead code.** `_sass/_bootstrap.scss` and `_sass/bootstrap/` vendor Bootstrap
-  3.3.6, and the Gemfile pulls the `bootstrap` 4.6.2 gem, but nothing imports either — `minima.scss`
-  imports only the three `minima/*` partials. So the `container-fluid`, `row`, `col-md-6`, and
-  `img-responsive` classes scattered through the includes are inert. Don't reach for a grid class
-  expecting it to work; write the CSS in `_base.scss`.
-- **Local builds may fail on bundler version.** `bundle exec jekyll build` can die with
-  "Could not find 'bundler' (2.3.19)" against system Ruby 2.6. Fix with
-  `gem install bundler:2.3.19` (or `bundle update --bundler`) before assuming the site is broken.
+  3.3.6, but nothing imports them — `minima.scss` imports only the three `minima/*` partials. So the
+  `container-fluid`, `row`, `col-md-6`, and `img-responsive` classes scattered through the includes
+  are inert. Don't reach for a grid class expecting it to work; write the CSS in `_base.scss`.
+  (The `bootstrap` gem was removed from the Gemfile — it was never wired in either.)
