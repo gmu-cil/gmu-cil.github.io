@@ -214,6 +214,7 @@ div.profile{
 }
 
 .alumni-grad-badge,
+.alumni-grad-badge:visited,
 .alumni-home-link,
 .alumni-home-link:visited {
   display: inline-block;
@@ -226,6 +227,7 @@ div.profile{
   vertical-align: -2px;
 }
 
+.alumni-grad-badge:hover,
 .alumni-home-link:hover {
   background: $brand-color-emph;
   color: $background-color;
