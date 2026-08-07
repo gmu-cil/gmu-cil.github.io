@@ -7,7 +7,18 @@
     <div class="col-md-6 news-item{% if forloop.index > 30 %} news-hidden{% endif %}">
       <div class="row">
 
+            {% assign show_year = false %}
             {% if item.year %}
+              {% assign show_year = true %}
+              {% unless forloop.first %}
+                {% assign prev_index = forloop.index0 | minus: 1 %}
+                {% assign prev_item = histories[prev_index] %}
+                {% if prev_item.year == item.year %}
+                  {% assign show_year = false %}
+                {% endif %}
+              {% endunless %}
+            {% endif %}
+            {% if show_year %}
               <div class="year">
                 {{ item.year }}
               </div>
