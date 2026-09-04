@@ -66,7 +66,7 @@ what is visible by default.
 Each page is a stub in the repo root; the substance is in the include and the data file.
 
 - **`index.markdown`** → `_layouts/home.html`. The only page with prose written directly in a
-  layout: the lab blurb, the two `/assets/front1.png` + `front2.png` banner images, the News
+  layout: the lab blurb, the two `/assets/front1.jpg` + `front2.jpg` banner images, the News
   section (`_includes/news.html` over `chronicles.yml`), and the Join blurb. Edit the layout to
   change any of that copy.
 - **`people.md`** → three stacked includes: `people.html` (data-driven from `people.yml`),

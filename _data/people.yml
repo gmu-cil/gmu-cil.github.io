@@ -4,12 +4,12 @@
   website: https://myeonglee.com
   email: mlee89@gmu.edu
 
-- image: "/assets/members/hiba.png"
+- image: "/assets/members/hiba.jpg"
   name: Hiba Siraj
   title: Ph.D. Student
   email: hsiraj@gmu.edu
 
-- image: "/assets/members/matt.png"
+- image: "/assets/members/matt.jpg"
   name: Matthew Willis
   title: Ph.D. Student
   email: thinkwillis@gmail.com
@@ -34,7 +34,7 @@
   title: M.S. Student
   email: skhodaka@gmu.edu
 
-- image: "/assets/members/tugce.png"
+- image: "/assets/members/tugce.jpg"
   name: Tugce Gundogdu
   title: Undergrad Student
   email: tgundogd@gmu.edu
@@ -79,7 +79,7 @@
 #   title: Undergrad Student
 #   email: hkazia@gmu.edu
 
-# - image: "/assets/members/julia.png"
+# - image: "/assets/members/julia.jpg"
 #   name: Julia H.P. Hsu
 #   title: Ph.D. Candidate
 #   website: https://juliahsu.github.io
@@ -90,7 +90,7 @@
 #   title: Undergrad Student
 #   email: jbyun5@gmu.edu
 
-# - image: "/assets/members/bhuvan.png"
+# - image: "/assets/members/bhuvan.jpg"
 #   name: Bhuvan Thatthari
 #   title: M.S. Student
 #   email: bthattha@gmu.edu
@@ -100,7 +100,7 @@
 #   title: Ph.D. Student
 #   email: tmcalil@gmu.edu
 
-# - image: "/assets/members/jinyi.png"
+# - image: "/assets/members/jinyi.jpg"
 #   name: Jinyi Kim
 #   title: Ph.D. Student
 #   email: jkim266@gmu.edu
@@ -125,7 +125,7 @@
 #   title: Undergrad Student
 #   email: asidhu3@gmu.edu
 
-# - image: "/assets/members/ishana.png"
+# - image: "/assets/members/ishana.jpg"
 #   name: Ishana Shinde
 #   title: M.S. Student
 #   website: https://ishana7.github.io
