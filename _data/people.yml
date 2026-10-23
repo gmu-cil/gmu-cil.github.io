@@ -49,6 +49,11 @@
   title: Undergrad Student
   email: cnguy4@gmu.edu
 
+- image: "/assets/members/hanaan.jpeg"
+  name: Hanaan Kazia
+  title: Undergrad Student
+  email: hkazia@gmu.edu
+
 - image: "/assets/members/yasmin.jpg"
   name: Yasmin Tamer
   title: Undergrad Student
@@ -69,20 +74,10 @@
   title: Undergrad Student
   email: mnayyar4@gmu.edu
 
-- image: "/assets/members/shreeya.jpg"
-  name: Shreeya Sharda
-  title: Visiting Student
-  email: ssharda2@gmu.edu
-
 # - image: "/assets/members/jaewon.jpg"
 #   name: Jaewon Park
 #   title: Undergrad Student
 #   email: jpark261@gmu.edu
-
-# - image: "/assets/members/hanaan.jpeg"
-#   name: Hanaan Kazia
-#   title: Undergrad Student
-#   email: hkazia@gmu.edu
 
 # - image: "/assets/members/julia.jpg"
 #   name: Julia H.P. Hsu
