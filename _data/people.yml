@@ -4,6 +4,11 @@
   website: https://myeonglee.com
   email: mlee89@gmu.edu
 
+- image: "/assets/members/latifah.jpg"
+  name: Latifah Abubakr
+  title: Ph.D. Candidate
+  email: labubakr@gmu.edu
+
 - image: "/assets/members/hiba.jpg"
   name: Hiba Siraj
   title: Ph.D. Student
@@ -13,11 +18,6 @@
   name: Matthew Willis
   title: Ph.D. Student
   email: thinkwillis@gmail.com
-
-- image: "/assets/members/latifah.jpg"
-  name: Latifah Abubakr
-  title: Ph.D. Student
-  email: labubakr@gmu.edu
 
 - image: "/assets/members/gie.jpeg"
   name: Gie Myung Lee
